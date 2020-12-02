@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'MaruBuri-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   color: #333;
   font-family: Roboto, sans-serif;
@@ -16,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Roboto, sans-serif;
+  font-family: 'MaruBuri-Regular', sans-serif;
   font-size: 1rem;
   line-height: 1.2;
   margin: 0 0 0.75rem;
@@ -67,7 +74,6 @@ h4 {
 
 p, ul {
   font-size: 1.6rem;
-  text-align: justify;
 }
 
 a i {
