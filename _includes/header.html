@@ -121,7 +121,7 @@
           {{ site.website_title | default: "Web" }}: {% include a.html href=site.website %}{{ site.website | escape }}</a>
         </p>
       {%- endif -%}
-        <p>update 2020.12.08</p>
+        <p>update {{ site.update_date }}</p>
         <p>
             <a style="cursor: pointer;" class="" onclick="javascript:document.body.classList.toggle('dark');">
               <i class="fas fa-adjust" title="ORCiD link"></i>

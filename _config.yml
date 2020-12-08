@@ -5,6 +5,8 @@ repository: taetaetae/resume
 # Content configuration version
 version: 2
 
+update_date: 2020.12.08
+
 # Personal info
 name: 권태관
 title: Software Engineer
