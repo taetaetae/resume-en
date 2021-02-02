@@ -80,7 +80,7 @@ content:
           **네이버페이 카드 직가맹 시스템**
           - 프로젝트 초기환경 셋팅 (빌드/배포, CI/CD, 서버 및 인프라 등)
           - 서버 환경설정 배포 자동화 시나리오 적용
-          - Elasticsearch Stack 을 활용한 비즈니스 통합 모니터링 시스템 구축
+          - Elastic Stack 을 활용한 비즈니스 통합 모니터링 시스템 구축
           - 거래비 하락 모니터링 시스템 구축
 
           **날씨ㆍ<a href="https://weather.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://weather.naver.com</a>**
