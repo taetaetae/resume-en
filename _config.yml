@@ -106,17 +106,17 @@ content:
         title: Toy Project
         description: | # this will include new lines to allow paragraphs
           **👨‍💻꿈꾸는 태태태의 공간ㆍ<a href="https://taetaetae.github.io/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://taetaetae.github.io/</a>**
-          - 개인 기술블로그, 2016년 9월부터 운영 중
+          - 개인 기술블로그 (2016년 9월~)
           - 새로운 기술을 습득했거나 업무간 트러블 슈팅을 기록하며 공유
 
           **Daily DevBlogㆍ<a href="http://daily-devblog.com/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://daily-devblog.com/</a>**
-          - 기술블로그 구독서비스, 2018년 7월부터 서비스 중
+          - 기술블로그 구독서비스 (2018년 7월~)
           - 매일 오전 10시마다 어제 등록된 글, 매주 월요일 오후 2시 지난주 인기글을 정리하여 메일 발송
           
           **공모주 알리미ㆍ<a href="https://t.me/PublicOfferingNotice" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://t.me/PublicOfferingNotice</a>**
-          - 공모주 관련 정보를 텔레그렘 채널로 전달
-          - 관련 개발 블로깅 : https://taetaetae.github.io/tags/public-offering-notice/
-          - 소개글 : https://hilarious-pearl-833.notion.site/89148aa1197646fa8465d844400e9f5f
+          - 공모주 관련 정보(상장, 청약 등)를 텔레그렘 채널로 전달 (2021년 3월~)
+          - <a href="https://taetaetae.github.io/tags/public-offering-notice" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 개발 블로깅</a>
+          - <a href="https://hilarious-pearl-833.notion.site/89148aa1197646fa8465d844400e9f5f" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">소개글</a>
 
           **github-repo-searcherㆍ<a href="https://github.com/taetaetae/github-repo-searcher" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://github.com/taetaetae/github-repo-searcher</a>**
           - <a href="https://hacktoberfest.digitalocean.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hacktoberfest</a> 를 진행할때 보다 쉽게 한국사용자의 저장소를 찾을 수 있도록 자동화 스크립트 개발 및 오픈소스화 (자매품 <a href="https://github.com/taetaetae/hacktoberfest-korea-repo" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hacktoberfest-korea-repo</a>)
