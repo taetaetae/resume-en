@@ -74,7 +74,7 @@ content:
           
           **V Liveㆍ<a href="http://www.vlive.tv" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://www.vlive.tv</a>**
           - 240여 개국 대상 글로벌 라이브 서비스 운영
-          - 방송알림 속도개선 (1,000만 사용자 대상, 11분 → 30초이내 / <a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">1 블로깅</a> )
+          - 방송알림 속도개선 (1,000만 사용자 대상, 11분 → 30초이내 / <a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
           - 커뮤니티 강화 서비스 전면 개편
           - 온라인 코드리뷰 및 CI/CD, 정적분석 도구(SonarQube)를 도입하며 코드 품질 향상에 기여 (<a href="https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
           - 주요 컴포넌트 TPS 모니터링 대시보드 구축
