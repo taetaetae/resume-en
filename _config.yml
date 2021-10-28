@@ -74,17 +74,17 @@ content:
           
           **V Liveㆍ<a href="http://www.vlive.tv" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://www.vlive.tv</a>**
           - 240여 개국 대상 글로벌 라이브 서비스 운영
-          - 방송알림 속도개선 (1,000만 사용자 대상, 11분 → 30초이내 / <a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
+          - 방송알림 속도개선 (1,000만 사용자 대상, 11분 → 30초이내 / <a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">1 블로깅</a> )
           - 커뮤니티 강화 서비스 전면 개편
-          - 온라인 코드리뷰 및 CI/CD, 정적분석 도구(SonarQube)를 도입하며 코드 품질 향상에 기여
+          - 온라인 코드리뷰 및 CI/CD, 정적분석 도구(SonarQube)를 도입하며 코드 품질 향상에 기여 (<a href="https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
           - 주요 컴포넌트 TPS 모니터링 대시보드 구축
           - Batch 무중단 배포 적용 (<a href="https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
 
           **네이버페이 카드 직가맹 시스템 (PG)**
           - 프로젝트 초기환경 셋팅 (빌드/배포, CI/CD, 서버 및 인프라 등)
-          - 서버 환경설정 배포 자동화 시나리오 적용
-          - Elastic Stack 을 활용한 비즈니스 통합 모니터링 시스템 구축
-          - 거래비 하락 모니터링 시스템 구축
+          - Ansible 사용 서버 환경설정 배포 자동화 시나리오 적용
+          - Elastic Stack 을 활용한 비즈니스 통합 모니터링 시스템 구축 (<a href="https://d2.naver.com/helloworld/3585246" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
+          - 거래비 하락 모니터링 시스템 구축 (<a href="https://taetaetae.github.io/2018/05/31/anomaly-detection/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
 
           **날씨ㆍ<a href="https://weather.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://weather.naver.com</a>**
           - 모바일 서비스 개편
