@@ -69,16 +69,14 @@ content:
         sub_title: Software Engineer
         caption: 2014.05 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          **쇼핑 라이브ㆍ<a href="https://shoppinglive.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://shoppinglive.naver.com</a>**
-          - 팀내 DevOps 활동으로 업무 효율성 개선 (CI/CD, 메신저 봇을 활용한 각종 자동화 등)
-          - k8s 기반 사내 인프라 활용 신규 모듈 구성
+          **쇼핑라이브ㆍ<a href="https://shoppinglive.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://shoppinglive.naver.com</a>**
+          - 팀내 DevOps 활동(CI/CD, Sentry, 메신저 봇을 활용한 각종 자동화 등) 으로 업무 효율성 개선
+          - 신규 모듈 k8s 기반으로 인프라 구축
           
           **V Liveㆍ<a href="http://www.vlive.tv" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://www.vlive.tv</a>**
-          - 240여 개국 대상 글로벌 라이브 서비스 운영
-          - 방송알림 속도개선 (1,000만 사용자 대상, 11분 → 30초이내 / <a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
-          - 커뮤니티 강화 서비스 전면 개편
+          - 1,000만 사용자 대상 방송알림 속도개선(11분 → 30초), 특허출원 (<a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
+          - 서비스 전면 개편시 monolithic → MSA 구조 개선 (Event Sourcing, Circuit breaker, 모듈분리 등)
           - 온라인 코드리뷰 및 CI/CD, 정적분석 도구(SonarQube)를 도입하며 코드 품질 향상에 기여 (<a href="https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
-          - 주요 컴포넌트 TPS 모니터링 대시보드 구축
           - Batch 무중단 배포 적용 (<a href="https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
 
           **네이버페이 카드 직가맹 시스템 (PG)**
