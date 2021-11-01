@@ -149,7 +149,7 @@ content:
       - Server : Apache, Nginx, Tomcat
       - DevOps : CI/CD, Jenkins, Elastic Stack, Ansible
       - Git, Github
-      - Linux CentOS
+      - Linux CentOS, k8s
       - Pinpoint, nGrinder
 
 # Footer
