@@ -144,7 +144,7 @@ content:
     content: |
       - Language : Java, Python
       - Framework : Spring (Boot, Batch, Core), Flask
-      - ORM : Mybatis, Spring Data JDBC
+      - ORM : Mybatis, Spring Data JDBC, JPA
       - Database : MySql, MongoDB, Redis
       - Build automation tool : Maven, Gradle
       - Server : Apache, Nginx, Tomcat
