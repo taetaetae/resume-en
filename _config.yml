@@ -97,7 +97,7 @@ content:
         caption: 2013.05 ~ 2014.05
         description: | # this will include new lines to allow paragraphs
           **네이버 게임ㆍ<a href="https://game.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://game.naver.com</a>**
-          - 서비스 이관 (NHN Entertainment → NHN)
+          - DB 마이그레이션 및 서버 이전 등 서비스 이관에 대한 전반적인 업무 (NHN Entertainment → NHN)
           - 서비스 메인 페이지 성능 개선 (2.1초 → 1.7초)
 
   - title: Other Experience. # Title for the section
@@ -112,13 +112,16 @@ content:
 
           **Daily DevBlogㆍ<a href="http://daily-devblog.com/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://daily-devblog.com/</a>**
           - 기술블로그 구독서비스 (2018년 7월~)
+          - Python, Flask
           - 매일 오전 10시마다 어제 등록된 글, 매주 월요일 오후 2시 지난주 인기글을 정리하여 메일 발송
           
           **공모주 알리미ㆍ<a href="https://t.me/PublicOfferingNotice" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://t.me/PublicOfferingNotice</a>**
           - 공모주 관련 정보(상장, 청약 등)를 텔레그렘 채널로 전달 (2021년 3월~)
+          - Java, Spring Batch, Cron 활용
           - <a href="https://taetaetae.github.io/tags/public-offering-notice" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a>
 
           **github-repo-searcherㆍ<a href="https://github.com/taetaetae/github-repo-searcher" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://github.com/taetaetae/github-repo-searcher</a>**
+          - python 기반 console 실행
           - <a href="https://hacktoberfest.digitalocean.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hacktoberfest</a> 를 진행할때 보다 쉽게 한국사용자의 저장소를 찾을 수 있도록 자동화 스크립트 개발 및 오픈소스화 (자매품 <a href="https://github.com/taetaetae/hacktoberfest-korea-repo" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hacktoberfest-korea-repo</a>)
           - <a href="https://event-us.kr/hacktoberfestkorea/event/23432" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">hacktoberfest Seoul 2020 Meetup</a> 에서 <a href="https://youtu.be/WxBjNVcxrQM?t=1765" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">소개</a>
       - layout: top-left
