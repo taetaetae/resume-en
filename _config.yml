@@ -75,7 +75,8 @@ content:
           - 고가용성 데이터 가공 파이프 라인 구축 및 추천 시스템 개발 
           
           **V Live**ㆍ<a href="http://www.vlive.tv" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://www.vlive.tv</a>
-          - 1,000만 사용자 대상 방송알림 속도개선(11분 → 30초), 특허출원 (<a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
+          - 1,000만 사용자 대상 방송알림 속도개선(11분 → 30초) (<a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
+            ㄴ [특허출원](https://doi.org/10.8080/1020190128401)
           - 서비스 전면 개편시 monolithic → MSA 구조 개선 (Event Sourcing, Circuit breaker, 모듈분리 등)
           - 온라인 코드리뷰 및 CI/CD, 정적분석 도구(SonarQube)를 도입하며 코드 품질 향상에 기여 (<a href="https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
           - Batch 무중단 배포 적용 (<a href="https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
