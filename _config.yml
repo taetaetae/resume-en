@@ -100,10 +100,13 @@ content:
           - DB 마이그레이션 및 서버 이전 등 서비스 이관에 대한 전반적인 업무 (NHN Entertainment → NHN)
           - 서비스 메인 페이지 성능 개선 (2.1초 → 1.7초)
       - layout: top-left
-        title: 대한민국 육군 장교
-        sub_title: 12사단 대대 통신소대장
+        title: 대한민국 육군 장교 (ROTC)
+        sub_title: 통신소대장
         caption: 2009.02 ~ 2012.06
         description: | # this will include new lines to allow paragraphs
+          **12사단 대대 통신소대장**
+          - GOP 및 FEBA 부대 유/무선 통신망 개선
+          - 위병소 통제시스템 개발 및 대대 홈페이지 구축
 
   - title: Other Experience. # Title for the section
     layout: list # Type of content section (list/text)
