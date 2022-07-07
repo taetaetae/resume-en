@@ -5,7 +5,7 @@ repository: taetaetae/resume
 # Content configuration version
 version: 2
 
-update_date: 2022.06.01
+update_date: 2022.07.07
 
 # Personal info
 name: 권태관
@@ -145,6 +145,7 @@ content:
             - <a href="https://d2.naver.com/helloworld/3585246" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">네이버 D2 - helloworld : 내 서버에는 누가 들어오는 걸까</a> - 2018.04.30
 
           **서평**
+            - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791140700288" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">이펙티브 엔지니어 / 이미령 옮김</a> - 2022.07.01
             - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791165920500" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">나만의 데이터 분석 플랫폼 엘라스틱 서치 / 주정남 지음</a> - 2021.03.26
             - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791160509519" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">심플 소프트웨어 / 이미령 옮김</a> - 2019.10.23
             
