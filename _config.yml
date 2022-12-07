@@ -56,9 +56,9 @@ about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
   10년 차 웹 개발자로 1,000만 명 이상의 회원을 관리하고 MAU 1,000~2,000만 대용량 데이터를 처리한 경험이 있습니다. 주로 Java 언어를 사용하며 서버사이드 개발을 하고 있으며 국내 또는 글로벌 서비스를 포함한 다양한 성격의 웹 서비스를 운영 및 개발한 경험이 있습니다. 
   
-  배움을 공유하는 것을 즐기며 실무에서 경험한 트러블 슈팅을 기술 블로그에 정리하고 있습니다. 주어진 업무는 완벽하게 해결하고 팀 내 모두가 성장할 수 있는 건강한 개발 문화를 위하여 다양한 시도를 하고 있습니다.
+  배움을 공유하는 것을 즐기며 실무에서 경험한 트러블 슈팅은 기술 블로그에, 인사이트가 될만한 글들은 커리어리에 정리하고 있습니다. 주어진 업무는 완벽하게 해결하고 팀 내 모두가 성장할 수 있는 건강한 개발 문화를 위하여 다양한 시도를 하고 있습니다.
 
-  데이터 시각화 및 자동화, 기술부채 개선에 관심이 많고 특히 모두가 함께 성장하는 문화를 만들기 위해 자투리 시간을 확보하여 다양한 기술적 도전을 통해 비즈니스 성장에 기여하고 있습니다.
+  데이터 시각화 및 자동화, 기술부채 개선에 관심이 많고 특히 모두가 함께 성장하는 문화를 만들기 위해 자투리 시간을 확보하여 다양한 기술적 도전을 통해 비즈니스 성장에 기여하고 있으며 멘토링(교육)에도 관심이 많습니다.
 
 content:
   - title: Work Experience. # Title for the section
@@ -72,12 +72,14 @@ content:
           **쇼핑라이브**ㆍ<a href="https://shoppinglive.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://shoppinglive.naver.com</a>
           - 팀 내 DevOps 활동(CI/CD, Sentry, 메신저 봇을 활용한 각종 자동화 등) 으로 업무 효율성 개선
           - k8s 기반으로 신규 모듈 인프라 구축
-          - 고가용성 데이터 가공 파이프 라인 구축 및 추천 시스템 개발 
+          - 고가용성 데이터 가공 파이프 라인 구축
+          - 유저 행동기반 개인화 방송/상품 추천
+          - 실시간 랭킹 및 피드 서비스
           
           **V Live**ㆍ<a href="http://www.vlive.tv" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://www.vlive.tv</a>
           - 1,000만 사용자 대상 방송알림 속도개선(11분 → 30초) (<a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> ) (<a href="https://doi.org/10.8080/1020190128401" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">특허</a> )
           - 서비스 전면 개편시 monolithic → MSA 구조 개선 (Event Sourcing, Circuit breaker, 모듈분리 등)
-          - 온라인 코드리뷰 및 CI/CD, 정적분석 도구(SonarQube)를 도입하며 코드 품질 향상에 기여 (<a href="https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
+          - 온라인 코드리뷰 및 CI/CD, 정적분석 도구(SonarQube)를 도입하며 코드 품질 향상 및 생산성 증가에 기여 (<a href="https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
           - Batch 무중단 배포 적용 (<a href="https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
 
           **네이버페이 카드 직가맹 시스템 (Payment Gateway)**
