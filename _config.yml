@@ -122,8 +122,8 @@ content:
           - Python, Flask
           - 매일 오전 10시마다 어제 등록된 글, 매주 월요일 오후 2시 지난주 인기글을 정리하여 메일 발송
           
-          **공모주 알리미ㆍ<a href="https://t.me/PublicOfferingNotice" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://t.me/PublicOfferingNotice</a>**
-          - 공모주 관련 정보(상장, 청약 등)를 텔레그렘 채널로 전달 (2021년 3월~)
+          **공모주 알리미
+          - 공모주 관련 정보(상장, 청약 등)를 텔레그렘 채널로 전달 (2021년 3월 ~ 서비스 )
           - Java, Spring Batch, Cron 활용
           - <a href="https://taetaetae.github.io/tags/public-offering-notice" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a>
 
