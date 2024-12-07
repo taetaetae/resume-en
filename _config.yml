@@ -5,7 +5,7 @@ repository: taetaetae/resume
 # Content configuration version
 version: 2
 
-update_date: 2023.8.1
+update_date: 2024.12.7
 
 # Personal info
 name: 권태관
@@ -69,6 +69,11 @@ content:
         sub_title: Software Engineer
         caption: 2014.05 ~ 현재
         description: | # this will include new lines to allow paragraphs
+          **네이버 쇼핑(패션타운)**ㆍ<a href="https://shopping.naver.com/ns/home/fashion-beauty" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://shopping.naver.com/ns/home/fashion-beauty</a>
+          - 데이터 수집 및 상품 매칭 등 데이터 프로세스 전반(kafka, batch, spark) 개선 및 운영
+          - 카오스 엔지니어링 도입(Toxiproxy)으로 신규 서비스(N+Store) 출시간 장애상황 재현 및 병목구간 프로파일링, 안정성 및 고가용성 확보
+          - graphql 성능 테스트로 인스턴스 pod수 및 HPA 기준 확립
+          
           **쇼핑라이브**ㆍ<a href="https://shoppinglive.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://shoppinglive.naver.com</a>
           - EDA기반 고가용성 데이터 가공 파이프 라인 구축으로 유저 행동기반 개인화 방송/상품 추천 및 실시간 랭킹 및 피드 서비스 구현
           - 팀 내 DevOps 활동(CI/CD, Github Action, 메신저 봇을 활용한 각종 자동화 등) 으로 업무 생산성과 효율성 개선
@@ -141,6 +146,7 @@ content:
             - <a href="https://archive.pycon.kr/2018/program/81" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">PYCON 2018 - Lightning talk : 파이썬으로 토이프로젝트 만들기</a> - 2018.08.19            
 
           **기고**
+            - <a href="https://yozm.wishket.com/magazine/detail/2539" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">어제보다 1cm 더 성장하기 / 요즘 IT(커리어 리팩토링: 개발자의 성장법)</a> - 2024.04.11
             - <a href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005037115" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">readItzine 5호, 개발자의 일 / 교보문고</a> - 2022.08.15
             - <a href="https://careerly.co.kr/profiles/105233" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">커리어리 큐레이션</a> - 2022.03.27 ~
             - <a href="https://blog.naver.com/naver_diary/222110224274" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">네이버 공식 다이어리 : [네피셜] 내가 개발한 코드 한 줄로 전 세계 팬들이 행복할 수 있다면!</a> - 2020.10.08
