@@ -192,7 +192,6 @@ content:
       - Build automation tool : Maven, Gradle
       - Server : Apache, Nginx, Tomcat
       - DevOps : CI/CD, Jenkins, Ansible, Github Actions
-      - Git, Github
       - Linux CentOS, k8s
       - Pinpoint, nGrinder
 
