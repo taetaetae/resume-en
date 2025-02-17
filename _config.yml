@@ -54,9 +54,10 @@ google_analytics: "UA-86432198-1"
 about_title: About <mark>taetaetae</mark>
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  12년 차 백엔드 개발자로서, 1,000만 명 이상의 회원을 관리하고 MAU 2,000만 규모의 대용량 데이터를 처리하며, 국내 및 글로벌 서비스를 포함한 대규모 트래픽을 처리하는 웹 서비스 운영과 개발을 경험했습니다. 동시에 읽기 쉽고 유지보수 가능한 코드를 작성하고, 정리와 꼼꼼함을 바탕으로 복잡한 시스템을 구조화하여 코드의 일관성, 성능 최적화, 기술 부채 해소를 통해 개발 과정에서 발생할 수 있는 문제를 사전에 방지하고 해결하는 데 기여하고 있습니다.<br>
-  개인의 성장뿐만 아니라 **팀 전체가 함께 성장하는 문화**를 만들어가는 데 관심이 많으며, **코드 리뷰, DevOps 개선, 지식 공유** 등을 통해 개발 생산성을 높이고 있습니다. 실무에서 경험한 **트러블슈팅과 인사이트**는 기술 블로그와 커리어리에 공유하며, 이를 통해 커뮤니티에도 기여하고 있습니다.<br>
-  현재는 시니어 개발자로써 **대용량 서비스 아키텍처, 설계, 자동화, 개발 문화 개선, 멘토링** 등에 집중하며, **비즈니스 성장에 기여하는 개발자**로서 지속적으로 발전하고자 합니다.
+  As a **backend developer with 12 years of experience**, I have managed over **10 million users** and processed **large-scale data with 20 million MAU**, handling **high-traffic web services** for both domestic and global markets. I specialize in writing **readable and maintainable code**, structuring **complex systems with clarity and consistency**, and proactively addressing potential issues through **performance optimization, code consistency, and technical debt reduction**.<br>
+  Beyond personal growth, I am deeply committed to fostering a **culture where the entire team grows together**. I actively enhance **development productivity** through **code reviews, DevOps improvements, and knowledge sharing**. Additionally, I contribute to the tech community by sharing **troubleshooting experiences and insights** on my **tech blog and career-related platforms**.<br>
+  Currently, as a **senior developer**, I am focusing on **large-scale service architecture, system design, automation, development culture improvements, and mentoring**. My goal is to continuously evolve as a **developer who drives business growth**.
+
 
 content:
   - title: Work Experience. # Title for the section
@@ -65,82 +66,82 @@ content:
       - layout: top-left
         title: NAVER Corporation
         sub_title: Software Engineer
-        caption: 2014.05 ~ 현재
+        caption: 2014.05 ~ Present
         description: | # this will include new lines to allow paragraphs
-          **네이버 쇼핑**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com/ns/home/fashion-beauty)<br>
-          - **데이터 수집 및 상품 매칭 프로세스 개선 및 운영**(Kafka, Batch 활용)<br>
-          ㆍ 대규모 상품 데이터를 실시간으로 처리 및 매칭하는 데이터 파이프라인 최적화<br>
-          ㆍ 데이터 적재 및 변환 성능 개선으로 배치 처리 시간 30% 단축<br>
-          - **카오스 엔지니어링 도입(Toxiproxy)으로 신규 서비스(네이버플러스스토어) 안정성 및 고가용성 확보**<br>
-          ㆍ 장애 상황을 인위적으로 재현하여 네트워크 지연, DB 장애 등 다양한 시나리오 검증<br>
-          ㆍ 병목 구간 프로파일링 및 최적화를 통해 서비스 출시간 안정성 강화<br>
-          - **성능 테스트를 기반으로 인스턴스 Pod 수 및 HPA 기준 확립**<br>
-          ㆍ 트래픽 패턴 분석을 통해 최적의 Horizontal Pod Autoscaling(HPA) 임계값 설정<br>
-          ㆍ 부하 테스트 및 리소스 최적화를 통해 운영 비용 절감 및 성능 향상<br>
+          **Naver Shopping**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com/ns/home/fashion-beauty)<br>
+          - **Improvement and operation of data collection and product matching processes** (utilizing Kafka, Batch)<br>
+          ㆍ Optimization of the data pipeline for real-time processing and matching of large-scale product data<br>
+          ㆍ Reduced batch processing time by 30% through improvements in data ingestion and transformation performance<br>
+          - **Ensuring stability and high availability of the new service (Naver Plus Store) through Chaos Engineering (Toxiproxy)**<br>
+          ㆍ Simulated failure scenarios such as network delays and database failures to validate system resilience<br>
+          ㆍ Strengthened launch-time stability by profiling and optimizing bottleneck areas<br>
+          - **Establishment of instance Pod count and HPA standards based on performance testing**<br>
+          ㆍ Defined optimal **Horizontal Pod Autoscaling (HPA)** thresholds by analyzing traffic patterns<br>
+          ㆍ Improved performance and reduced operational costs through load testing and resource optimization<br>
           
-          **쇼핑라이브**ㆍ[*https://shoppinglive.naver.com*](https://shoppinglive.naver.com/)<br>
-          - **EDA 기반 고가용성 데이터 가공 파이프라인 구축**으로 유저 행동 기반 **개인화 추천 및 실시간 랭킹/피드 서비스 구현**<br>
-          ㆍ Kafka 기반 실시간 스트리밍 데이터 처리로 사용자 이벤트를 분석 및 추천 시스템 연계<br>
-          ㆍ Redis를 활용하여 실시간 랭킹 계산 및 피드 노출 최적화<br>
-          - **팀 내 DevOps 활동 강화(CI/CD, GitHub Actions, 메신저 봇 자동화)로 업무 생산성 및 효율성 개선**<br>
-          ㆍ Jenkins, GitHub Actions를 활용한 배포 자동화로 코드 안정성과 운영 효율성 향상<br>
-          ㆍ 사내 메신저 봇을 활용한 빌드/배포 알림 및 장애 탐지 자동화<br>
-          - **Kubernetes 기반 신규 모듈 인프라 구축**으로 서비스 확장성과 운영 안정성 확보<br>
-          ㆍ Helm Chart를 이용한 배포 자동화 및 리소스 관리 최적화<br>
-          ㆍ Horizontal Pod Autoscaling(HPA) 적용으로 트래픽 변화에 따른 유연한 확장 지원<br>
+          **Shopping Live**ㆍ[*https://shoppinglive.naver.com*](https://shoppinglive.naver.com/)<br>
+          - **Built an EDA-based high-availability data processing pipeline** to implement **personalized recommendations and real-time ranking/feed services**<br>
+          ㆍ Processed real-time streaming data using **Kafka** to analyze user events and integrate with the recommendation system<br>
+          ㆍ Optimized real-time ranking calculations and feed exposure using **Redis**<br>
+          - **Enhanced DevOps activities within the team (CI/CD, GitHub Actions, Messenger Bot Automation) to improve productivity and efficiency**<br>
+          ㆍ Automated deployments using **Jenkins and GitHub Actions**, improving code stability and operational efficiency<br>
+          ㆍ Automated build/deployment notifications and incident detection using an internal **messenger bot**<br>
+          - **Established infrastructure for new service modules on Kubernetes, ensuring scalability and operational stability**<br>
+          ㆍ Optimized deployment automation and resource management using **Helm Charts**<br>
+          ㆍ Applied **Horizontal Pod Autoscaling (HPA)** to dynamically scale based on traffic fluctuations<br>
 
           **V Live**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)<br>
-          - 1,000만 사용자 대상 방송 알림 속도 개선(11분 → 30초)으로 푸시 알림 시스템 성능 95% 향상 ([*관련 블로깅*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
-          ㆍ 기존 순차 처리 방식에서 **병렬 처리 및 메시지 큐(Kafka) 도입**을 통해 대량 트래픽 처리 성능 개선<br>
-          ㆍ Redis Pub/Sub을 활용하여 알림 전송 속도 최적화 및 네트워크 부하 감소<br>
-          - **서비스 전면 개편: Monolithic → MSA 구조 전환** 으로 확장성 및 장애 대응력 강화<br>
-          ㆍ **Event Sourcing, Circuit Breaker, 모듈 분리**를 적용하여 마이크로서비스 간 결합도를 낮추고 장애 격리 가능하도록 설계<br>
-          ㆍ Kubernetes 기반 컨테이너 오케스트레이션 도입으로 배포 유연성 확보<br>
-          - **CI/CD 자동화 및 코드 품질 개선**을 위한 정적 분석 도구(SonarQube) 및 온라인 코드 리뷰 도입 ([*관련 블로깅*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))<br>
-          ㆍ Jenkins, GitHub Actions을 활용한 배포 자동화로 코드 안정성 및 개발 생산성 향상<br>
-          - **Batch 무중단 배포 적용**을 통해 서비스 연속성 유지 및 장애 최소화 ([*관련 블로깅*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))<br>
+          - Improved **push notification performance for 10 million users** (reducing latency from **11 minutes to 30 seconds**) by 95% ([*Related Blog Post*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
+          ㆍ Migrated from sequential processing to **parallel processing with Kafka message queues**, significantly improving large-scale traffic handling<br>
+          ㆍ Utilized **Redis Pub/Sub** to optimize notification delivery speed and reduce network load<br>
+          - **Transformed service architecture from Monolithic to MSA**, improving scalability and fault tolerance<br>
+          ㆍ Applied **Event Sourcing, Circuit Breaker, and module decoupling** to lower dependencies between microservices and enable fault isolation<br>
+          ㆍ Adopted **Kubernetes-based container orchestration** for flexible deployments<br>
+          - **Implemented CI/CD automation and code quality improvements** using static analysis tools (SonarQube) and online code reviews ([*Related Blog Post*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))<br>
+          ㆍ Increased development productivity and code stability through **Jenkins and GitHub Actions** automation<br>
+          - **Applied zero-downtime deployment for batch jobs** to maintain service continuity and minimize failures ([*Related Blog Post*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))<br>
 
-          **네이버페이 카드 직가맹 시스템 (Payment Gateway)**<br>
-          - **프로젝트 초기 환경 셋팅** (빌드/배포 파이프라인 구축, CI/CD 설계, 서버 및 인프라 구성)<br>
-          - **Ansible을 활용한 서버 환경설정 자동화**로 운영 효율성 및 배포 안정성 향상<br>
-          - **Elastic Stack 기반 비즈니스 통합 모니터링 시스템 구축**으로 서비스 장애 감지 및 이상 탐지 자동화 ([*관련 블로깅*](https://d2.naver.com/helloworld/3585246))<br>
-          - **거래비 하락 모니터링 시스템 구축**을 통해 비정상 거래 패턴 자동 감지 및 대응 시스템 마련 ([*관련 블로깅*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))<br>
-          - **트랜잭션 추적 및 성능 모니터링**을 위한 분산 트레이싱 도입으로 결제 시스템 안정성 강화<br>
-    
-          **네이버 날씨**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)<br>
-          - **모바일 서비스 개편과 함께 백엔드 아키텍쳐 개편으로** API 구조 최적화 및 응답 속도 15% 개선<br>
-          - **CP사 수신 데이터 모니터링 툴 개발**로 데이터 정합성 검증 및 장애 감지 자동화<br>
-          - **Crontab 기반 데이터 수집을 Spring Batch 및 Jenkins로 전환**하여 데이터 흐름 시각화 및 운영 자동화<br>
-          - **날씨 데이터 캐싱 전략 개선**으로 트래픽 급증 시 부하 분산 및 API 안정성 향상<br>
-          - **데이터 파이프라인 로깅 체계 구축**으로 이상 데이터 탐지 및 처리 지연 문제 개선<br>
-          - 지도 기반 날씨 서비스 프로토타이핑 → 향후 서비스에 적용<br>
-  
+          **Naver Pay - Card Merchant System (Payment Gateway)**<br>
+          - **Set up the initial project environment** (build/deployment pipeline, CI/CD design, server and infrastructure configuration)<br>
+          - **Automated server configuration management using Ansible**, improving operational efficiency and deployment stability<br>
+          - **Developed a business-integrated monitoring system using the Elastic Stack** to automate service failure detection and anomaly detection ([*Related Blog Post*](https://d2.naver.com/helloworld/3585246))<br>
+          - **Built a transaction anomaly detection system** to automatically identify and respond to abnormal transaction patterns ([*Related Blog Post*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))<br>
+          - **Enhanced payment system reliability** by introducing distributed tracing for transaction tracking and performance monitoring<br>
+
+          **Naver Weather**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)<br>
+          - **Optimized API structure and improved response time by 15%** as part of a mobile service revamp and backend architecture update<br>
+          - **Developed a CP (Content Provider) data monitoring tool** to automate data integrity verification and incident detection<br>
+          - **Migrated cron-based data collection to Spring Batch and Jenkins**, enabling data flow visualization and operational automation<br>
+          - **Improved weather data caching strategy** to distribute load during traffic surges and enhance API stability<br>
+          - **Established a logging system for the data pipeline** to detect anomalies and resolve processing delays<br>
+          - Prototyped a **map-based weather service**, later integrated into the service roadmap<br>      
+
       - layout: top-left
         title: NHN Technology Services
         sub_title: Software Engineer
         caption: 2013.05 ~ 2014.05
         description: | # this will include new lines to allow paragraphs
-          **네이버 게임ㆍ[*https://game.naver.com*](https://game.naver.com/)**<br>
-          - **네이버 아이디 기반 게임 채널링 서비스** 운영 및 게임사별 연동 최적화
-          - NHN Entertainment → NHN 으로 서비스 이관하는 과정에서 **DB 마이그레이션 및 서버 이전**을 안정적으로 수행
-          - **불필요한 초기 로딩을 제거하고 지연 로딩을 적용하여** 서비스 메인 페이지 성능 개선(2.1초 → 1.7초), 로딩 속도 19% 단축
-          
+          **Naver Game**ㆍ[*https://game.naver.com*](https://game.naver.com/)**<br>
+          - **Operated the Naver ID-based game channeling service** and optimized integrations with various game companies<br>
+          - Successfully performed **DB migration and server transition** during the service transfer from NHN Entertainment to NHN<br>
+          - **Improved the main page performance** by eliminating unnecessary initial loading and applying lazy loading, reducing loading time by **19% (2.1s → 1.7s)**<br>
+
       - layout: top-left
-        title: 대한민국 육군 장교 (ROTC)
-        sub_title: 보병대대 통신소대장
+        title: Republic of Korea Army Officer (ROTC)
+        sub_title: Infantry Battalion Communications Platoon Leader
         caption: 2009.02 ~ 2012.06
         description: | # this will include new lines to allow paragraphs
-          - 대대 특별참모 역할 수행 및 통신소대 병력 운영, 교육 및 유지보수 관리
-          - GOP 및 FEBA 부대 유/무선 통신망 개선
-          - 수기 기록으로 인한 보안 취약점을 개선하기 위해 위병소 전자 출입관리 시스템 개발 (php)
+          - Performed duties as a battalion special staff officer and managed communications platoon personnel, training, and maintenance  
+          - Improved wired and wireless communication networks for GOP and FEBA units  
+          - Developed an electronic access control system for guard posts (PHP) to address security vulnerabilities caused by manual record-keeping  
 
   - title: Patent.
     layout: text # Type of content section (list/text)
     content: |
-      **대량 알림 발송 방법 및 시스템**ㆍ[kipris](https://doi.org/10.8080/1020190128401)
-        - V Live 서비스에서 진행한 대량 알림 발송 방법 및 시스템에 대한 특허 출원
-        - 메세징 큐와 Redis를 활용하여 대량 알림 발송 속도 개선 및 네트워크 부하 감소
-        - 1,000만 사용자 대상 방송 알림 속도 개선(11분 → 30초)
+      **Mass Notification Sending Method and System**ㆍ[kipris](https://doi.org/10.8080/1020190128401)  
+        - Filed a patent for the mass notification sending method and system implemented in the V Live service  
+        - Improved mass notification delivery speed and reduced network load using **message queues and Redis**  
+        - Enhanced **broadcast notification speed for 10 million users** (from **11 minutes to 30 seconds**)  
 
   - title: Other Experience. # Title for the section
     layout: list # Type of content section (list/text)
@@ -148,39 +149,39 @@ content:
       - layout: top-left
         title: Toy Project
         description: | # this will include new lines to allow paragraphs
-          **👨‍💻꿈꾸는 태태태의 공간ㆍ<a href="https://taetaetae.github.io/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://taetaetae.github.io/</a>**
-          - 개인 기술블로그 (2016년 9월~)
-          - 새로운 기술을 습득했거나 업무간 트러블 슈팅을 기록하며 공유
+          **👨‍💻 Dreaming Taetaetae’s Spaceㆍ<a href="https://taetaetae.github.io/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://taetaetae.github.io/</a>**  
+          - Personal tech blog (Since September 2016)  
+          - Records and shares new technologies learned and troubleshooting experiences from work  
 
-          **Daily DevBlogㆍ<a href="http://daily-devblog.com/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://daily-devblog.com/</a>**
-          - 기술블로그 구독서비스 (2018년 7월~)
-          - Python, Flask
-          - 매일 오전 10시마다 어제 등록된 글, 매주 월요일 오후 2시 지난주 인기글을 정리하여 메일 발송
+          **Daily DevBlogㆍ<a href="http://daily-devblog.com/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://daily-devblog.com/</a>**  
+          - Tech blog subscription service (Since July 2018)  
+          - **Python, Flask**  
+          - Automatically compiles and emails articles published the previous day every morning at 10 AM, and sends a summary of the most popular posts every Monday at 2 PM  
 
       - layout: top-left
         title: ETC
         description: | # this will include new lines to allow paragraphs
-          **발표**
-            - <a href="https://d2.naver.com/news/8012036" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">DEVIEW CAMPUS 2023 : 어서와, 성장은 처음이지?</a> - 2023.02.27
-            - <a href="https://festa.io/events/364" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">모두의 TOY STORY : Side Project 어디까지 가봤니?</a> - 2019.07.14
-            - <a href="https://taetaetae.github.io/2019/05/19/d-light-togetherthon-2019" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">GDG D.light together-thon 2019</a> - 2019.05.11
-            - <a href="https://archive.pycon.kr/2018/program/81" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">PYCON 2018 - Lightning talk : 파이썬으로 토이프로젝트 만들기</a> - 2018.08.19            
+          **Presentations**  
+            - <a href="https://d2.naver.com/news/8012036" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">DEVIEW CAMPUS 2023: Welcome, First Time Growing?</a> - 2023.02.27  
+            - <a href="https://festa.io/events/364" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Everyone’s TOY STORY: How Far Have You Gone with Side Projects?</a> - 2019.07.14  
+            - <a href="https://taetaetae.github.io/2019/05/19/d-light-togetherthon-2019" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">GDG D.light Together-thon 2019</a> - 2019.05.11  
+            - <a href="https://archive.pycon.kr/2018/program/81" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">PYCON 2018 - Lightning Talk: Creating Toy Projects with Python</a> - 2018.08.19  
 
-          **기고**
-            - <a href="https://yozm.wishket.com/magazine/detail/2539" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">어제보다 1cm 더 성장하기 / 요즘 IT(커리어 리팩토링: 개발자의 성장법)</a> - 2024.04.11
-            - <a href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005037115" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">readItzine 5호, 개발자의 일 / 교보문고</a> - 2022.08.15
-            - <a href="https://careerly.co.kr/profiles/105233" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">커리어리 큐레이션</a> - 2022.03.27 ~
-            - <a href="https://blog.naver.com/naver_diary/222110224274" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">네이버 공식 다이어리 : [네피셜] 내가 개발한 코드 한 줄로 전 세계 팬들이 행복할 수 있다면!</a> - 2020.10.08
-            - <a href="https://d2.naver.com/helloworld/3585246" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">네이버 D2 - helloworld : 내 서버에는 누가 들어오는 걸까</a> - 2018.04.30
+          **Articles**  
+            - <a href="https://yozm.wishket.com/magazine/detail/2539" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Growing 1cm More Than Yesterday / Yozm IT (Career Refactoring: Developer Growth)</a> - 2024.04.11  
+            - <a href="https://ebook-product.kyobobook.co.kr/dig/epd/ebook/E000005037115" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">readItzine Issue 5, Developer’s Life / Kyobo Bookstore</a> - 2022.08.15  
+            - <a href="https://careerly.co.kr/profiles/105233" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Careerly Curation</a> - Since 2022.03.27  
+            - <a href="https://blog.naver.com/naver_diary/222110224274" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Naver Official Diary: [Naverficial] If My Code Can Make Fans Around the World Happy!</a> - 2020.10.08  
+            - <a href="https://d2.naver.com/helloworld/3585246" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Naver D2 - Helloworld: Who's Accessing My Server?</a> - 2018.04.30  
 
-          **서평**
-            - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791140700288" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">이펙티브 엔지니어 / 이미령 옮김</a> - 2022.07.01
-            - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791165920500" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">나만의 데이터 분석 플랫폼 엘라스틱 서치 / 주정남 지음</a> - 2021.03.26
-            - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791160509519" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">심플 소프트웨어 / 이미령 옮김</a> - 2019.10.23
-            
-          **기타**
-            - 네이버 2022 신입사원 대상 사내 특강, '그런 개발자로 괜찮은가 (feat. 성장)' - 2022.11.30
-            - 네이버 2021 신입사원 멘토링 참여, <a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=018&aid=0004836785" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">인터뷰 기사</a> - 2021.01.25
+          **Book Reviews**  
+            - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791140700288" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">The Effective Engineer / Translated by Lee Mi-ryeong</a> - 2022.07.01  
+            - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791165920500" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">My Data Analysis Platform: Elasticsearch / Written by Joo Jung-nam</a> - 2021.03.26  
+            - <a href="http://www.kyobobook.co.kr/product/detailViewKor.laf?barcode=9791160509519" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Simple Software / Translated by Lee Mi-ryeong</a> - 2019.10.23  
+
+          **Others**  
+            - Naver 2022 New Employee Internal Lecture, **"Is That Developer Okay? (feat. Growth)"** - 2022.11.30  
+            - Naver 2021 New Employee Mentoring Participant, <a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=018&aid=0004836785" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">Interview Article</a> - 2021.01.25  
 
   - title: Skill.
     layout: text # Type of content section (list/text)
