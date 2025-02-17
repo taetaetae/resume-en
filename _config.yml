@@ -5,7 +5,7 @@ repository: taetaetae/resume
 # Content configuration version
 version: 2
 
-update_date: 2024.12.7
+update_date: 2025.02.17
 
 # Personal info
 name: 권태관
@@ -174,17 +174,24 @@ content:
             - 네이버 2022 신입사원 대상 사내 특강, '그런 개발자로 괜찮은가 (feat. 성장)' - 2022.11.30
             - 네이버 2021 신입사원 멘토링 참여, <a href="https://news.naver.com/main/read.nhn?mode=LSD&mid=sec&sid1=105&oid=018&aid=0004836785" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">인터뷰 기사</a> - 2021.01.25
 
+  - title: Patent.
+    layout: text # Type of content section (list/text)
+    content: |
+      **대량 알림 발송 방법 및 시스템**ㆍ[kipris](https://doi.org/10.8080/1020190128401)
+        - V Live 서비스에서 진행한 대량 알림 발송 방법 및 시스템에 대한 특허 출원
+        - 메세징 큐와 Redis를 활용하여 대량 알림 발송 속도 개선 및 네트워크 부하 감소
+        - 1,000만 사용자 대상 방송 알림 속도 개선(11분 → 30초)
 
   - title: Skill.
     layout: text # Type of content section (list/text)
     content: |
-      - Language : Java, Python
+      - Language : Java, Kotlin, Python
       - Framework : Spring (Boot, Batch, Core), Flask
       - ORM : Mybatis, Spring Data JDBC
-      - Database : MySql, MongoDB, Redis
+      - Database : MySql, MongoDB, Redis, Elasticsearch
       - Build automation tool : Maven, Gradle
       - Server : Apache, Nginx, Tomcat
-      - DevOps : CI/CD, Jenkins, Elastic Stack, Ansible, Github Actions
+      - DevOps : CI/CD, Jenkins, Ansible, Github Actions
       - Git, Github
       - Linux CentOS, k8s
       - Pinpoint, nGrinder
