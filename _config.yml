@@ -54,11 +54,9 @@ google_analytics: "UA-86432198-1"
 about_title: About <mark>taetaetae</mark>
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  12년 차 웹 개발자로 1,000만 명 이상의 회원을 관리하고 MAU 1,000~2,000만 대용량 데이터를 처리한 경험이 있습니다. 주로 Java 언어를 사용하며 서버사이드 개발을 하고 있으며 국내, 글로벌 서비스를 포함한 다양한 성격의 웹 서비스를 운영 및 개발한 경험이 있습니다. 
-  
-  배움을 공유하는 것을 즐기며 실무에서 경험한 트러블 슈팅은 기술 블로그에, 인사이트가 될만한 글들은 커리어리에 정리하고 있습니다. 주어진 업무는 완벽하게 해결하고 팀 내 모두가 성장할 수 있는 건강한 개발 문화를 위하여 다양한 시도를 하고 있습니다.
-
-  데이터 시각화 및 자동화, 기술부채 개선에 관심이 많고 특히 모두가 함께 성장하는 문화를 만들기 위해 자투리 시간을 확보하여 다양한 기술적 도전을 통해 비즈니스 성장에 기여하고 있으며 멘토링(교육)에도 관심이 많습니다.
+  12년 차 백엔드 개발자로서, 1,000만 명 이상의 회원을 관리하고 MAU 2,000만 규모의 대용량 데이터를 처리하며, 국내 및 글로벌 서비스를 포함한 대규모 트래픽을 처리하는 웹 서비스 운영과 개발을 경험했습니다. 동시에 읽기 쉽고 유지보수 가능한 코드를 작성하고, 정리와 꼼꼼함을 바탕으로 복잡한 시스템을 구조화하여 코드의 일관성, 성능 최적화, 기술 부채 해소를 통해 개발 과정에서 발생할 수 있는 문제를 사전에 방지하고 해결하는 데 기여하고 있습니다.<br>
+  개인의 성장뿐만 아니라 **팀 전체가 함께 성장하는 문화**를 만들어가는 데 관심이 많으며, **코드 리뷰, DevOps 개선, 지식 공유** 등을 통해 개발 생산성을 높이고 있습니다. 실무에서 경험한 **트러블슈팅과 인사이트**는 기술 블로그와 커리어리에 공유하며, 이를 통해 커뮤니티에도 기여하고 있습니다.<br>
+  현재는 시니어 개발자로써 **대용량 서비스 아키텍처, 설계, 자동화, 개발 문화 개선, 멘토링** 등에 집중하며, **비즈니스 성장에 기여하는 개발자**로서 지속적으로 발전하고자 합니다.
 
 content:
   - title: Work Experience. # Title for the section
@@ -69,48 +67,72 @@ content:
         sub_title: Software Engineer
         caption: 2014.05 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          **네이버 쇼핑(패션타운)**ㆍ<a href="https://shopping.naver.com/ns/home/fashion-beauty" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://shopping.naver.com/ns/home/fashion-beauty</a>
-          - 데이터 수집 및 상품 매칭 등 데이터 프로세스 전반(kafka, batch, spark) 개선 및 운영
-          - 카오스 엔지니어링 도입(Toxiproxy)으로 신규 서비스(N+Store) 출시간 장애상황 재현 및 병목구간 프로파일링, 안정성 및 고가용성 확보
-          - graphql 성능 테스트로 인스턴스 pod수 및 HPA 기준 확립
+          **네이버 쇼핑**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com/ns/home/fashion-beauty)
+          - **데이터 수집 및 상품 매칭 프로세스 개선 및 운영**(Kafka, Batch 활용)
+          ㆍ 대규모 상품 데이터를 실시간으로 처리 및 매칭하는 데이터 파이프라인 최적화
+          ㆍ 데이터 적재 및 변환 성능 개선으로 배치 처리 시간 30% 단축
+          - **카오스 엔지니어링 도입(Toxiproxy)으로 신규 서비스(네이버플러스스토어) 안정성 및 고가용성 확보**
+          ㆍ 장애 상황을 인위적으로 재현하여 네트워크 지연, DB 장애 등 다양한 시나리오 검증
+          ㆍ 병목 구간 프로파일링 및 최적화를 통해 서비스 출시간 안정성 강화
+          - **성능 테스트를 기반으로 인스턴스 Pod 수 및 HPA 기준 확립**
+          ㆍ 트래픽 패턴 분석을 통해 최적의 Horizontal Pod Autoscaling(HPA) 임계값 설정
+          ㆍ 부하 테스트 및 리소스 최적화를 통해 운영 비용 절감 및 성능 향상
           
-          **쇼핑라이브**ㆍ<a href="https://shoppinglive.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://shoppinglive.naver.com</a>
-          - EDA기반 고가용성 데이터 가공 파이프 라인 구축으로 유저 행동기반 개인화 방송/상품 추천 및 실시간 랭킹 및 피드 서비스 구현
-          - 팀 내 DevOps 활동(CI/CD, Github Action, 메신저 봇을 활용한 각종 자동화 등) 으로 업무 생산성과 효율성 개선
-          - k8s기반으로 신규 모듈 인프라 구축
-           
-          **V Live**ㆍ<a href="http://www.vlive.tv" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">http://www.vlive.tv</a>
-          - 1,000만 사용자 대상 방송알림 속도개선(11분 → 30초) (<a href="https://taetaetae.github.io/2019/01/02/faster-parallel-processes/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> ) (<a href="https://doi.org/10.8080/1020190128401" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">특허</a> )
-          - 서비스 전면 개편시 monolithic → MSA 구조 개선 (Event Sourcing, Circuit breaker, 모듈분리 등)
-          - 온라인 코드리뷰 및 CI/CD, 정적분석 도구(SonarQube)를 도입하며 코드 품질 향상 및 생산성 증가에 기여 (<a href="https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
-          - Batch 무중단 배포 적용 (<a href="https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
+          **쇼핑라이브**ㆍ[*https://shoppinglive.naver.com*](https://shoppinglive.naver.com/)
+          - **EDA 기반 고가용성 데이터 가공 파이프라인 구축**으로 유저 행동 기반 **개인화 추천 및 실시간 랭킹/피드 서비스 구현**
+          ㆍ Kafka 기반 실시간 스트리밍 데이터 처리로 사용자 이벤트를 분석 및 추천 시스템 연계
+          ㆍ Redis를 활용하여 실시간 랭킹 계산 및 피드 노출 최적화
+          - **팀 내 DevOps 활동 강화(CI/CD, GitHub Actions, 메신저 봇 자동화)로 업무 생산성 및 효율성 개선**
+          ㆍ Jenkins, GitHub Actions를 활용한 배포 자동화로 코드 안정성과 운영 효율성 향상
+          ㆍ 사내 메신저 봇을 활용한 빌드/배포 알림 및 장애 탐지 자동화
+          - **Kubernetes 기반 신규 모듈 인프라 구축**으로 서비스 확장성과 운영 안정성 확보
+          ㆍ Helm Chart를 이용한 배포 자동화 및 리소스 관리 최적화
+          ㆍ Horizontal Pod Autoscaling(HPA) 적용으로 트래픽 변화에 따른 유연한 확장 지원
+
+          **V Live**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)
+          - 1,000만 사용자 대상 방송 알림 속도 개선(11분 → 30초)**으로 푸시 알림 시스템 성능 95% 향상 ([*관련 블로깅*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/), [*특허*](https://doi.org/10.8080/1020190128401))
+          ㆍ 기존 순차 처리 방식에서 **병렬 처리 및 메시지 큐(Kafka) 도입**을 통해 대량 트래픽 처리 성능 개선
+          ㆍ Redis Pub/Sub을 활용하여 알림 전송 속도 최적화 및 네트워크 부하 감소
+          - **서비스 전면 개편: Monolithic → MSA 구조 전환** 으로 확장성 및 장애 대응력 강화
+          ㆍ **Event Sourcing, Circuit Breaker, 모듈 분리**를 적용하여 마이크로서비스 간 결합도를 낮추고 장애 격리 가능하도록 설계
+          ㆍ Kubernetes 기반 컨테이너 오케스트레이션 도입으로 배포 유연성 확보
+          - **CI/CD 자동화 및 코드 품질 개선**을 위한 정적 분석 도구(SonarQube) 및 온라인 코드 리뷰 도입 ([*관련 블로깅*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))
+          ㆍ Jenkins, GitHub Actions을 활용한 배포 자동화로 코드 안정성 및 개발 생산성 향상
+          - **Batch 무중단 배포 적용**을 통해 서비스 연속성 유지 및 장애 최소화 ([*관련 블로깅*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))
 
           **네이버페이 카드 직가맹 시스템 (Payment Gateway)**
-          - 프로젝트 초기환경 셋팅 (빌드/배포, CI/CD, 서버 및 인프라 등)
-          - Ansible 사용 서버 환경설정 배포 자동화 시나리오 적용
-          - Elastic Stack 을 활용한 비즈니스 통합 모니터링 시스템 구축 (<a href="https://d2.naver.com/helloworld/3585246" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
-          - 거래비 하락 모니터링 시스템 구축 (<a href="https://taetaetae.github.io/2018/05/31/anomaly-detection/" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">관련 블로깅</a> )
-
-          **날씨**ㆍ<a href="https://weather.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://weather.naver.com</a>
-          - 모바일 서비스 개편
-          - CP사 수신 데이터 모니터링 툴 개발
-          - 데이터 수신 모듈에 대해 기존 CrontTab 방식에서 Spring-Batch 및 Jenkins 도입으로 데이터 흐름 시각화
+          - **프로젝트 초기 환경 셋팅** (빌드/배포 파이프라인 구축, CI/CD 설계, 서버 및 인프라 구성)
+          - **Ansible을 활용한 서버 환경설정 자동화**로 운영 효율성 및 배포 안정성 향상
+          - **Elastic Stack 기반 비즈니스 통합 모니터링 시스템 구축**으로 서비스 장애 감지 및 이상 탐지 자동화 ([*관련 블로깅*](https://d2.naver.com/helloworld/3585246))
+          - **거래비 하락 모니터링 시스템 구축**을 통해 비정상 거래 패턴 자동 감지 및 대응 시스템 마련 ([*관련 블로깅*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))
+          - **트랜잭션 추적 및 성능 모니터링**을 위한 분산 트레이싱 도입으로 결제 시스템 안정성 강화
+    
+          **네이버 날씨**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)
+          - **모바일 서비스 개편과 함께 백엔드 아키텍쳐 개편으로** API 구조 최적화 및 응답 속도 15% 개선
+          - **CP사 수신 데이터 모니터링 툴 개발**로 데이터 정합성 검증 및 장애 감지 자동화
+          - **Crontab 기반 데이터 수집을 Spring Batch 및 Jenkins로 전환**하여 데이터 흐름 시각화 및 운영 자동화
+          - **날씨 데이터 캐싱 전략 개선**으로 트래픽 급증 시 부하 분산 및 API 안정성 향상
+          - **데이터 파이프라인 로깅 체계 구축**으로 이상 데이터 탐지 및 처리 지연 문제 개선
+          - 지도 기반 날씨 서비스 프로토타이핑 → 향후 서비스에 적용
+  
       - layout: top-left
         title: NHN Technology Services
         sub_title: Software Engineer
         caption: 2013.05 ~ 2014.05
         description: | # this will include new lines to allow paragraphs
-          **네이버 게임ㆍ<a href="https://game.naver.com" target="_blank" style="color: inherit;font-style: italic;font-weight: 300;">https://game.naver.com</a>**
-          - DB 마이그레이션 및 서버 이전 등 서비스 이관에 대한 전반적인 업무 (NHN Entertainment → NHN)
-          - 서비스 메인 페이지 성능 개선 (2.1초 → 1.7초)
+          **네이버 게임ㆍ[*https://game.naver.com*](https://game.naver.com/)**
+          - **네이버 아이디 기반 게임 채널링 서비스** 운영 및 게임사별 연동 최적화
+          - NHN Entertainment → NHN 으로 서비스 이관하는 과정에서 **DB 마이그레이션 및 서버 이전**을 안정적으로 수행
+          - **불필요한 초기 로딩을 제거하고 지연 로딩을 적용하여** 서비스 메인 페이지 성능 개선(2.1초 → 1.7초), 로딩 속도 19% 단축
+          
       - layout: top-left
         title: 대한민국 육군 장교 (ROTC)
-        sub_title: 통신소대장
+        sub_title: 보병대대 통신소대장
         caption: 2009.02 ~ 2012.06
         description: | # this will include new lines to allow paragraphs
-          **12사단 대대 통신소대장**
+          - 대대 특별참모 역할 수행 및 통신소대 병력 운영, 교육 및 유지보수 관리
           - GOP 및 FEBA 부대 유/무선 통신망 개선
-          - 위병소 통제시스템 개발 및 대대 홈페이지 구축
+          - 수기 기록으로 인한 보안 취약점을 개선하기 위해 위병소 전자 출입관리 시스템 개발 (php)
 
   - title: Other Experience. # Title for the section
     layout: list # Type of content section (list/text)
