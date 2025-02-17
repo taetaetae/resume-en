@@ -67,60 +67,60 @@ content:
         sub_title: Software Engineer
         caption: 2014.05 ~ 현재
         description: | # this will include new lines to allow paragraphs
-          **네이버 쇼핑**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com/ns/home/fashion-beauty)
-          - **데이터 수집 및 상품 매칭 프로세스 개선 및 운영**(Kafka, Batch 활용)
-          ㆍ 대규모 상품 데이터를 실시간으로 처리 및 매칭하는 데이터 파이프라인 최적화
-          ㆍ 데이터 적재 및 변환 성능 개선으로 배치 처리 시간 30% 단축
-          - **카오스 엔지니어링 도입(Toxiproxy)으로 신규 서비스(네이버플러스스토어) 안정성 및 고가용성 확보**
-          ㆍ 장애 상황을 인위적으로 재현하여 네트워크 지연, DB 장애 등 다양한 시나리오 검증
-          ㆍ 병목 구간 프로파일링 및 최적화를 통해 서비스 출시간 안정성 강화
-          - **성능 테스트를 기반으로 인스턴스 Pod 수 및 HPA 기준 확립**
-          ㆍ 트래픽 패턴 분석을 통해 최적의 Horizontal Pod Autoscaling(HPA) 임계값 설정
-          ㆍ 부하 테스트 및 리소스 최적화를 통해 운영 비용 절감 및 성능 향상
+          **네이버 쇼핑**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com/ns/home/fashion-beauty)<br>
+          - **데이터 수집 및 상품 매칭 프로세스 개선 및 운영**(Kafka, Batch 활용)<br>
+          ㆍ 대규모 상품 데이터를 실시간으로 처리 및 매칭하는 데이터 파이프라인 최적화<br>
+          ㆍ 데이터 적재 및 변환 성능 개선으로 배치 처리 시간 30% 단축<br>
+          - **카오스 엔지니어링 도입(Toxiproxy)으로 신규 서비스(네이버플러스스토어) 안정성 및 고가용성 확보**<br>
+          ㆍ 장애 상황을 인위적으로 재현하여 네트워크 지연, DB 장애 등 다양한 시나리오 검증<br>
+          ㆍ 병목 구간 프로파일링 및 최적화를 통해 서비스 출시간 안정성 강화<br>
+          - **성능 테스트를 기반으로 인스턴스 Pod 수 및 HPA 기준 확립**<br>
+          ㆍ 트래픽 패턴 분석을 통해 최적의 Horizontal Pod Autoscaling(HPA) 임계값 설정<br>
+          ㆍ 부하 테스트 및 리소스 최적화를 통해 운영 비용 절감 및 성능 향상<br>
           
-          **쇼핑라이브**ㆍ[*https://shoppinglive.naver.com*](https://shoppinglive.naver.com/)
-          - **EDA 기반 고가용성 데이터 가공 파이프라인 구축**으로 유저 행동 기반 **개인화 추천 및 실시간 랭킹/피드 서비스 구현**
-          ㆍ Kafka 기반 실시간 스트리밍 데이터 처리로 사용자 이벤트를 분석 및 추천 시스템 연계
-          ㆍ Redis를 활용하여 실시간 랭킹 계산 및 피드 노출 최적화
-          - **팀 내 DevOps 활동 강화(CI/CD, GitHub Actions, 메신저 봇 자동화)로 업무 생산성 및 효율성 개선**
-          ㆍ Jenkins, GitHub Actions를 활용한 배포 자동화로 코드 안정성과 운영 효율성 향상
-          ㆍ 사내 메신저 봇을 활용한 빌드/배포 알림 및 장애 탐지 자동화
-          - **Kubernetes 기반 신규 모듈 인프라 구축**으로 서비스 확장성과 운영 안정성 확보
-          ㆍ Helm Chart를 이용한 배포 자동화 및 리소스 관리 최적화
-          ㆍ Horizontal Pod Autoscaling(HPA) 적용으로 트래픽 변화에 따른 유연한 확장 지원
+          **쇼핑라이브**ㆍ[*https://shoppinglive.naver.com*](https://shoppinglive.naver.com/)<br>
+          - **EDA 기반 고가용성 데이터 가공 파이프라인 구축**으로 유저 행동 기반 **개인화 추천 및 실시간 랭킹/피드 서비스 구현**<br>
+          ㆍ Kafka 기반 실시간 스트리밍 데이터 처리로 사용자 이벤트를 분석 및 추천 시스템 연계<br>
+          ㆍ Redis를 활용하여 실시간 랭킹 계산 및 피드 노출 최적화<br>
+          - **팀 내 DevOps 활동 강화(CI/CD, GitHub Actions, 메신저 봇 자동화)로 업무 생산성 및 효율성 개선**<br>
+          ㆍ Jenkins, GitHub Actions를 활용한 배포 자동화로 코드 안정성과 운영 효율성 향상<br>
+          ㆍ 사내 메신저 봇을 활용한 빌드/배포 알림 및 장애 탐지 자동화<br>
+          - **Kubernetes 기반 신규 모듈 인프라 구축**으로 서비스 확장성과 운영 안정성 확보<br>
+          ㆍ Helm Chart를 이용한 배포 자동화 및 리소스 관리 최적화<br>
+          ㆍ Horizontal Pod Autoscaling(HPA) 적용으로 트래픽 변화에 따른 유연한 확장 지원<br>
 
-          **V Live**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)
-          - 1,000만 사용자 대상 방송 알림 속도 개선(11분 → 30초)**으로 푸시 알림 시스템 성능 95% 향상 ([*관련 블로깅*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/), [*특허*](https://doi.org/10.8080/1020190128401))
-          ㆍ 기존 순차 처리 방식에서 **병렬 처리 및 메시지 큐(Kafka) 도입**을 통해 대량 트래픽 처리 성능 개선
-          ㆍ Redis Pub/Sub을 활용하여 알림 전송 속도 최적화 및 네트워크 부하 감소
-          - **서비스 전면 개편: Monolithic → MSA 구조 전환** 으로 확장성 및 장애 대응력 강화
-          ㆍ **Event Sourcing, Circuit Breaker, 모듈 분리**를 적용하여 마이크로서비스 간 결합도를 낮추고 장애 격리 가능하도록 설계
-          ㆍ Kubernetes 기반 컨테이너 오케스트레이션 도입으로 배포 유연성 확보
-          - **CI/CD 자동화 및 코드 품질 개선**을 위한 정적 분석 도구(SonarQube) 및 온라인 코드 리뷰 도입 ([*관련 블로깅*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))
-          ㆍ Jenkins, GitHub Actions을 활용한 배포 자동화로 코드 안정성 및 개발 생산성 향상
-          - **Batch 무중단 배포 적용**을 통해 서비스 연속성 유지 및 장애 최소화 ([*관련 블로깅*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))
+          **V Live**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)<br>
+          - 1,000만 사용자 대상 방송 알림 속도 개선(11분 → 30초)**으로 푸시 알림 시스템 성능 95% 향상 ([*관련 블로깅*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/)
+          ㆍ 기존 순차 처리 방식에서 **병렬 처리 및 메시지 큐(Kafka) 도입**을 통해 대량 트래픽 처리 성능 개선<br>
+          ㆍ Redis Pub/Sub을 활용하여 알림 전송 속도 최적화 및 네트워크 부하 감소<br>
+          - **서비스 전면 개편: Monolithic → MSA 구조 전환** 으로 확장성 및 장애 대응력 강화<br>
+          ㆍ **Event Sourcing, Circuit Breaker, 모듈 분리**를 적용하여 마이크로서비스 간 결합도를 낮추고 장애 격리 가능하도록 설계<br>
+          ㆍ Kubernetes 기반 컨테이너 오케스트레이션 도입으로 배포 유연성 확보<br>
+          - **CI/CD 자동화 및 코드 품질 개선**을 위한 정적 분석 도구(SonarQube) 및 온라인 코드 리뷰 도입 ([*관련 블로깅*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))<br>
+          ㆍ Jenkins, GitHub Actions을 활용한 배포 자동화로 코드 안정성 및 개발 생산성 향상<br>
+          - **Batch 무중단 배포 적용**을 통해 서비스 연속성 유지 및 장애 최소화 ([*관련 블로깅*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))<br>
 
-          **네이버페이 카드 직가맹 시스템 (Payment Gateway)**
-          - **프로젝트 초기 환경 셋팅** (빌드/배포 파이프라인 구축, CI/CD 설계, 서버 및 인프라 구성)
-          - **Ansible을 활용한 서버 환경설정 자동화**로 운영 효율성 및 배포 안정성 향상
-          - **Elastic Stack 기반 비즈니스 통합 모니터링 시스템 구축**으로 서비스 장애 감지 및 이상 탐지 자동화 ([*관련 블로깅*](https://d2.naver.com/helloworld/3585246))
-          - **거래비 하락 모니터링 시스템 구축**을 통해 비정상 거래 패턴 자동 감지 및 대응 시스템 마련 ([*관련 블로깅*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))
-          - **트랜잭션 추적 및 성능 모니터링**을 위한 분산 트레이싱 도입으로 결제 시스템 안정성 강화
+          **네이버페이 카드 직가맹 시스템 (Payment Gateway)**<br>
+          - **프로젝트 초기 환경 셋팅** (빌드/배포 파이프라인 구축, CI/CD 설계, 서버 및 인프라 구성)<br>
+          - **Ansible을 활용한 서버 환경설정 자동화**로 운영 효율성 및 배포 안정성 향상<br>
+          - **Elastic Stack 기반 비즈니스 통합 모니터링 시스템 구축**으로 서비스 장애 감지 및 이상 탐지 자동화 ([*관련 블로깅*](https://d2.naver.com/helloworld/3585246))<br>
+          - **거래비 하락 모니터링 시스템 구축**을 통해 비정상 거래 패턴 자동 감지 및 대응 시스템 마련 ([*관련 블로깅*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))<br>
+          - **트랜잭션 추적 및 성능 모니터링**을 위한 분산 트레이싱 도입으로 결제 시스템 안정성 강화<br>
     
-          **네이버 날씨**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)
-          - **모바일 서비스 개편과 함께 백엔드 아키텍쳐 개편으로** API 구조 최적화 및 응답 속도 15% 개선
-          - **CP사 수신 데이터 모니터링 툴 개발**로 데이터 정합성 검증 및 장애 감지 자동화
-          - **Crontab 기반 데이터 수집을 Spring Batch 및 Jenkins로 전환**하여 데이터 흐름 시각화 및 운영 자동화
-          - **날씨 데이터 캐싱 전략 개선**으로 트래픽 급증 시 부하 분산 및 API 안정성 향상
-          - **데이터 파이프라인 로깅 체계 구축**으로 이상 데이터 탐지 및 처리 지연 문제 개선
-          - 지도 기반 날씨 서비스 프로토타이핑 → 향후 서비스에 적용
+          **네이버 날씨**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)<br>
+          - **모바일 서비스 개편과 함께 백엔드 아키텍쳐 개편으로** API 구조 최적화 및 응답 속도 15% 개선<br>
+          - **CP사 수신 데이터 모니터링 툴 개발**로 데이터 정합성 검증 및 장애 감지 자동화<br>
+          - **Crontab 기반 데이터 수집을 Spring Batch 및 Jenkins로 전환**하여 데이터 흐름 시각화 및 운영 자동화<br>
+          - **날씨 데이터 캐싱 전략 개선**으로 트래픽 급증 시 부하 분산 및 API 안정성 향상<br>
+          - **데이터 파이프라인 로깅 체계 구축**으로 이상 데이터 탐지 및 처리 지연 문제 개선<br>
+          - 지도 기반 날씨 서비스 프로토타이핑 → 향후 서비스에 적용<br>
   
       - layout: top-left
         title: NHN Technology Services
         sub_title: Software Engineer
         caption: 2013.05 ~ 2014.05
         description: | # this will include new lines to allow paragraphs
-          **네이버 게임ㆍ[*https://game.naver.com*](https://game.naver.com/)**
+          **네이버 게임ㆍ[*https://game.naver.com*](https://game.naver.com/)**<br>
           - **네이버 아이디 기반 게임 채널링 서비스** 운영 및 게임사별 연동 최적화
           - NHN Entertainment → NHN 으로 서비스 이관하는 과정에서 **DB 마이그레이션 및 서버 이전**을 안정적으로 수행
           - **불필요한 초기 로딩을 제거하고 지연 로딩을 적용하여** 서비스 메인 페이지 성능 개선(2.1초 → 1.7초), 로딩 속도 19% 단축
