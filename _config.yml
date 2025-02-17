@@ -90,7 +90,7 @@ content:
           ㆍ Horizontal Pod Autoscaling(HPA) 적용으로 트래픽 변화에 따른 유연한 확장 지원<br>
 
           **V Live**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)<br>
-          - 1,000만 사용자 대상 방송 알림 속도 개선(11분 → 30초)**으로 푸시 알림 시스템 성능 95% 향상 ([*관련 블로깅*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
+          - 1,000만 사용자 대상 방송 알림 속도 개선(11분 → 30초)으로 푸시 알림 시스템 성능 95% 향상 ([*관련 블로깅*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
           ㆍ 기존 순차 처리 방식에서 **병렬 처리 및 메시지 큐(Kafka) 도입**을 통해 대량 트래픽 처리 성능 개선<br>
           ㆍ Redis Pub/Sub을 활용하여 알림 전송 속도 최적화 및 네트워크 부하 감소<br>
           - **서비스 전면 개편: Monolithic → MSA 구조 전환** 으로 확장성 및 장애 대응력 강화<br>
