@@ -93,7 +93,7 @@ content:
           **V Live**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)<br>
           - Improved **push notification performance for 10 million users** (reducing latency from **11 minutes to 30 seconds**) by 95% ([*Related Blog Post*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
           ㆍ Migrated from sequential processing to **parallel processing with RabbitMQ message queues**, significantly improving large-scale traffic handling<br>
-          ㆍ Utilized **Redis Pub/Sub** to optimize notification delivery speed and reduce network load<br>
+          ㆍ Optimizing notification delivery speed and reducing network load through Redis key partitioning<br>
           - **Transformed service architecture from Monolithic to MSA**, improving scalability and fault tolerance<br>
           ㆍ Applied **Event Sourcing, Circuit Breaker, and module decoupling** to lower dependencies between microservices and enable fault isolation<br>
           ㆍ Adopted **Kubernetes-based container orchestration** for flexible deployments<br>
