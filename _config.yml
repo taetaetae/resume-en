@@ -54,10 +54,9 @@ google_analytics: "UA-86432198-1"
 about_title: About <mark>taetaetae</mark>
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  As a **backend developer with 12 years of experience**, I have managed over **10 million users** and processed **large-scale data with 20 million MAU**, handling **high-traffic web services** for both domestic and global markets. I specialize in writing **readable and maintainable code**, structuring **complex systems with clarity and consistency**, and proactively addressing potential issues through **performance optimization, code consistency, and technical debt reduction**.<br>
-  Beyond personal growth, I am deeply committed to fostering a **culture where the entire team grows together**. I actively enhance **development productivity** through **code reviews, DevOps improvements, and knowledge sharing**. Additionally, I contribute to the tech community by sharing **troubleshooting experiences and insights** on my **tech blog and career-related platforms**.<br>
-  Currently, as a **senior developer**, I am focusing on **large-scale service architecture, system design, automation, development culture improvements, and mentoring**. My goal is to continuously evolve as a **developer who drives business growth**.
-
+  As a backend developer with 12 years of experience, I have worked on operating and developing web services that handle large-scale traffic, managing over 10 million users, processing massive amounts of data, and supporting both domestic and global services. I focus on writing clean, maintainable code and structuring complex systems with organization and attention to detail. By ensuring code consistency, optimizing performance, and addressing technical debt, I proactively prevent and resolve potential issues during the development process.
+  I am particularly interested in fostering a culture where not only individual growth but also the entire team grows together.
+  Currently, as a senior developer within my organization, I am dedicated to troubleshooting, performance optimization, and designing high-performance APIs to contribute to business growth.
 
 content:
   - title: Work Experience. # Title for the section
