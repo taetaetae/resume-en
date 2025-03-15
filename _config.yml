@@ -5,11 +5,11 @@ repository: taetaetae/resume
 # Content configuration version
 version: 2
 
-update_date: 2025.02.17
+update_date: 2025.03.15
 
 # Personal info
 name: Kwon Tae Kwan
-title: Software Engineer Crazy for Growth
+title: Software development engineer
 email: taetaetae_@naver.com
 # email_title: Email (Email title override)
 # phone: Your phone number (optional)
@@ -68,53 +68,46 @@ content:
         sub_title: Software Engineer
         caption: 2014.05 ~ Present
         description: | # this will include new lines to allow paragraphs
-          **Naver Shopping**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com/ns/home/fashion-beauty)<br>
-          - **Improvement and operation of data collection and product matching processes** (utilizing Kafka, Batch)<br>
-          ㆍ Optimization of the data pipeline for real-time processing and matching of large-scale product data<br>
-          ㆍ Reduced batch processing time by 30% through improvements in data ingestion and transformation performance<br>
-          - **Ensuring stability and high availability of the new service (Naver Plus Store) through Chaos Engineering (Toxiproxy)**<br>
-          ㆍ Simulated failure scenarios such as network delays and database failures to validate system resilience<br>
-          ㆍ Strengthened launch-time stability by profiling and optimizing bottleneck areas<br>
-          - **Establishment of instance Pod count and HPA standards based on performance testing**<br>
-          ㆍ Defined optimal **Horizontal Pod Autoscaling (HPA)** thresholds by analyzing traffic patterns<br>
-          ㆍ Improved performance and reduced operational costs through load testing and resource optimization<br>
-          
-          **Shopping Live**ㆍ[*https://shoppinglive.naver.com*](https://shoppinglive.naver.com/)<br>
-          - **Built an EDA-based high-availability data processing pipeline** to implement **personalized recommendations and real-time ranking/feed services**<br>
-          ㆍ Processed real-time streaming data using **Kafka** to analyze user events and integrate with the recommendation system<br>
-          ㆍ Optimized real-time ranking calculations and feed exposure using **Redis**<br>
-          - **Enhanced DevOps activities within the team (CI/CD, GitHub Actions, Messenger Bot Automation) to improve productivity and efficiency**<br>
-          ㆍ Automated deployments using **Jenkins and GitHub Actions**, improving code stability and operational efficiency<br>
-          ㆍ Automated build/deployment notifications and incident detection using an internal **messenger bot**<br>
-          - **Established infrastructure for new service modules on Kubernetes, ensuring scalability and operational stability**<br>
-          ㆍ Optimized deployment automation and resource management using **Helm Charts**<br>
-          ㆍ Applied **Horizontal Pod Autoscaling (HPA)** to dynamically scale based on traffic fluctuations<br>
+          **NAVER Shopping**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com)ㆍ<small>(Feb 2022 – Present)</small><br>
+          - Developed key service APIs and operated data pipelines<br>
+          - Designed and implemented a real-time traffic monitoring system for handling large-scale traffic and incident response<br>
+          ㆍ The previous incident response method (log analysis-based) was inefficient, with an average response time of over 5 minutes<br>
+          ㆍ Established a metric-based real-time traffic monitoring system using Nginx VTS module and Prometheus (applied after dry_run validation)<br>
+          ㆍ Implemented Nginx Rate Limit settings to block abnormal traffic and ensure a stable traffic handling environment<br>
+          ㆍ Collected metrics (Prometheus + Grafana) and built dashboards to analyze response times and database query performance for bottleneck identification<br>
+          ㆍ Built a traffic dashboard using the ELK stack with access logs, reducing analysis time<br>
+          - Introduced incident recovery strategies and Chaos Engineering to enhance service stability<br>
+          ㆍ Defined failure recovery scenarios and conducted replication tests before service launch<br>
+          ㆍ Implemented a fallback cache to mitigate empty response issues caused by external response delays when the remote cache (Redis) expired<br>
+          ㆍ Introduced Chaos Engineering (Toxiproxy) to replicate latency failures and validate fallback cache logic through retry and connection recovery<br>
+          ㆍ Discovered fallback cache defects (failure in switching to recovery mode) through failure testing, optimized it, and achieved six months of zero downtime post-launch<br>
+          - Built a high-availability data pipeline for large-scale real-time user event processing<br>
+          ㆍ Implemented personalized recommendations and real-time ranking/feed services based on user behavior<br>
+          ㆍ Utilized Kafka for real-time streaming data processing, enabling user event analysis and integration with the recommendation system<br>
+          ㆍ Migrated from a batch-based ranking system (hourly updates) to near real-time ranking calculation using Redis (improving freshness)<br>
 
-          **V Live**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)<br>
-          - Improved **push notification performance for 10 million users** (reducing latency from **11 minutes to 30 seconds**) by 95% ([*Related Blog Post*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
-          ㆍ Migrated from sequential processing to **parallel processing with RabbitMQ message queues**, significantly improving large-scale traffic handling<br>
-          ㆍ Optimizing notification delivery speed and reducing network load through Redis key partitioning<br>
-          - **Transformed service architecture from Monolithic to MSA**, improving scalability and fault tolerance<br>
-          ㆍ Applied **Event Sourcing, Circuit Breaker, and module decoupling** to lower dependencies between microservices and enable fault isolation<br>
-          ㆍ Adopted **Kubernetes-based container orchestration** for flexible deployments<br>
-          - **Implemented CI/CD automation and code quality improvements** using static analysis tools (SonarQube) and online code reviews ([*Related Blog Post*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))<br>
-          ㆍ Increased development productivity and code stability through **Jenkins and GitHub Actions** automation<br>
-          - **Applied zero-downtime deployment for batch jobs** to maintain service continuity and minimize failures ([*Related Blog Post*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))<br>
+          **V LIVE**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)ㆍ<small>(Aug 2018 – Feb 2022)</small><br>
+          - Improved push notification speed for 10 million users (from 11 minutes to 30 seconds), enhancing push notification system performance by 95% ([*Related blog post*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
+          ㆍ Identified issues in the existing process, led planning and design, implemented, and deployed in three phases<br>
+          ㆍ Optimized recipient query methods and improved message queue (RabbitMQ) parallel processing, enhancing speed<br>
+          ㆍ Reduced Redis load and increased processing speed by implementing Redis key partitioning to control duplicate notifications<br>
+          - Full-scale service overhaul: Transitioned from Monolithic to MSA architecture to enhance scalability and fault isolation<br>
+          ㆍ Applied EDA, Circuit Breaker, and module separation to reduce inter-service coupling and enable fault isolation<br>
+          ㆍ Introduced Kubernetes-based container orchestration for deployment flexibility<br>
+          - Automated CI/CD and improved code quality by integrating SonarQube for static analysis and implementing online code reviews ([*Related blog post*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))<br>
+          - Applied batch non-disruptive deployment to maintain service continuity and minimize failures ([*Related blog post*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))<br>
 
-          **Naver Pay - Card Merchant System (Payment Gateway)**<br>
-          - **Set up the initial project environment** (build/deployment pipeline, CI/CD design, server and infrastructure configuration)<br>
-          - **Automated server configuration management using Ansible**, improving operational efficiency and deployment stability<br>
-          - **Developed a business-integrated monitoring system using the Elastic Stack** to automate service failure detection and anomaly detection ([*Related Blog Post*](https://d2.naver.com/helloworld/3585246))<br>
-          - **Built a transaction anomaly detection system** to automatically identify and respond to abnormal transaction patterns ([*Related Blog Post*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))<br>
-          - **Enhanced payment system reliability** by introducing distributed tracing for transaction tracking and performance monitoring<br>
+          **NAVER Pay – Card Direct Merchant System (Payment Gateway)**ㆍ<small>(Apr 2016 – Aug 2018)</small><br>
+          - Set up the initial project environment (build/deployment pipelines, CI/CD design, server and infrastructure configuration)<br>
+          - Built a business-integrated monitoring system using the Elastic Stack for automated service failure detection and anomaly detection ([*Related blog post*](https://d2.naver.com/helloworld/3585246))<br>
+          - Developed a transaction decline monitoring system to automatically detect abnormal transaction patterns and establish a response system ([*Related blog post*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))<br>
+          - Enhanced payment system stability by implementing distributed tracing for transaction tracking and performance monitoring<br>
 
-          **Naver Weather**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)<br>
-          - **Optimized API structure and improved response time by 15%** as part of a mobile service revamp and backend architecture update<br>
-          - **Developed a CP (Content Provider) data monitoring tool** to automate data integrity verification and incident detection<br>
-          - **Migrated cron-based data collection to Spring Batch and Jenkins**, enabling data flow visualization and operational automation<br>
-          - **Improved weather data caching strategy** to distribute load during traffic surges and enhance API stability<br>
-          - **Established a logging system for the data pipeline** to detect anomalies and resolve processing delays<br>
-          - Prototyped a **map-based weather service**, later integrated into the service roadmap<br>      
+          **NAVER Weather**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)ㆍ<small>(May 2014 – Apr 2016)</small><br>
+          - Developed a monitoring tool for content provider (CP) data reception to verify data integrity and automate failure detection<br>
+          - Migrated data collection from Crontab-based scheduling to Spring Batch and Jenkins, enabling data flow visualization and operational automation<br>
+          - Established a data pipeline logging system to detect anomalies and improve processing delays<br>
+          - Conducted ideation and prototyping for a map-based weather service, which was later applied to the service<br>
 
       - layout: top-left
         title: NHN Technology Services
