@@ -114,9 +114,9 @@ content:
         caption: 2013.05 ~ 2014.05
         description: | # this will include new lines to allow paragraphs
           **Naver Game**ㆍ[*https://game.naver.com*](https://game.naver.com/)<br>
-          - **Operated the Naver ID-based game channeling service** and optimized integrations with various game companies<br>
-          - Successfully performed **DB migration and server transition** during the service transfer from NHN Entertainment to NHN<br>
-          - **Improved the main page performance** by eliminating unnecessary initial loading and applying lazy loading, reducing loading time by **19% (2.1s → 1.7s)**<br>
+          - Operated the Naver ID-based game channeling service and optimized integrations with various game companies<br>
+          - Successfully performed DB migration and server transition during the service transfer from NHN Entertainment to NHN<br>
+          - Improved the main page performance by eliminating unnecessary initial loading and applying lazy loading, reducing loading time by 19% (2.1s → 1.7s)<br>
 
       - layout: top-left
         title: Republic of Korea Army Officer (ROTC)
@@ -132,8 +132,8 @@ content:
     content: |
       **Mass Notification Sending Method and System**ㆍ[kipris](https://doi.org/10.8080/1020190128401)  
         - Filed a patent for the mass notification sending method and system implemented in the V Live service  
-        - Improved mass notification delivery speed and reduced network load using **message queues and Redis**  
-        - Enhanced **broadcast notification speed for 10 million users** (from **11 minutes to 30 seconds**)  
+        - Improved mass notification delivery speed and reduced network load using message queues and Redis  
+        - Enhanced broadcast notification speed for 10 million user* (from 11 minutes to 30 seconds)  
 
   - title: Other Experience. # Title for the section
     layout: list # Type of content section (list/text)
