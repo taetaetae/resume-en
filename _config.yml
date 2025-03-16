@@ -71,8 +71,8 @@ content:
           - Developed key service APIs and operated data pipelines<br>
           - Designed and implemented a real-time traffic monitoring system for handling large-scale traffic and incident response<br>
           ㆍ The previous incident response method (log analysis-based) was inefficient, with an average response time of over 5 minutes<br>
-          ㆍ Established a metric-based real-time traffic monitoring system using Nginx VTS module and Prometheus (applied after dry_run validation)<br>
-          ㆍ Implemented Nginx Rate Limit settings to block abnormal traffic and ensure a stable traffic handling environment<br>
+          ㆍ Established a metric-based real-time traffic monitoring system using Nginx VTS module and Prometheus<br>
+          ㆍ Implemented Nginx Rate Limit settings to block abnormal traffic and ensure a stable traffic handling environment (applied after dry_run validation)<br>
           ㆍ Collected application metrics and configured a Grafana dashboard – identified bottlenecks by analyzing response times and database query performance.<br>
           ㆍ Built a traffic dashboard using the ELK stack with access logs, reducing analysis time<br>
           - Introduced incident recovery strategies and Chaos Engineering to enhance service stability<br>
