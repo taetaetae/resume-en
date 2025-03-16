@@ -73,11 +73,11 @@ content:
           ㆍ The previous incident response method (log analysis-based) was inefficient, with an average response time of over 5 minutes<br>
           ㆍ Established a metric-based real-time traffic monitoring system using Nginx VTS module and Prometheus (applied after dry_run validation)<br>
           ㆍ Implemented Nginx Rate Limit settings to block abnormal traffic and ensure a stable traffic handling environment<br>
-          ㆍ Collected metrics (Prometheus + Grafana) and built dashboards to analyze response times and database query performance for bottleneck identification<br>
+          ㆍ Collected application metrics and configured a Grafana dashboard – identified bottlenecks by analyzing response times and database query performance.<br>
           ㆍ Built a traffic dashboard using the ELK stack with access logs, reducing analysis time<br>
           - Introduced incident recovery strategies and Chaos Engineering to enhance service stability<br>
           ㆍ Defined failure recovery scenarios and conducted replication tests before service launch<br>
-          ㆍ Implemented a fallback cache to mitigate empty response issues caused by external response delays when the remote cache (Redis) expired<br>
+          ㆍ Introduced a Fallback Cache (Redis) to resolve empty response issues caused by external response delays<br>
           ㆍ Introduced Chaos Engineering (Toxiproxy) to replicate latency failures and validate fallback cache logic through retry and connection recovery<br>
           ㆍ Discovered fallback cache defects (failure in switching to recovery mode) through failure testing, optimized it, and achieved six months of zero downtime post-launch<br>
           - Built a high-availability data pipeline for large-scale real-time user event processing<br>
@@ -87,7 +87,7 @@ content:
 
           **V LIVE**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)ㆍ<small>(Aug 2018 – Feb 2022)</small><br>
           - Improved push notification speed for 10 million users (from 11 minutes to 30 seconds), enhancing push notification system performance by 95% ([*Related blog post*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
-          ㆍ Identified issues in the existing process, led planning and design, implemented, and deployed in three phases<br>
+          ㆍ Participated in the entire process, from identifying issues in the existing process to planning, designing, implementation, and phased deployment in three stages<br>
           ㆍ Optimized recipient query methods and improved message queue (RabbitMQ) parallel processing, enhancing speed<br>
           ㆍ Reduced Redis load and increased processing speed by implementing Redis key partitioning to control duplicate notifications<br>
           - Full-scale service overhaul: Transitioned from Monolithic to MSA architecture to enhance scalability and fault isolation<br>
