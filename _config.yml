@@ -5,7 +5,7 @@ repository: taetaetae/resume
 # Content configuration version
 version: 2
 
-update_date: 2025.03.15
+update_date: 2025.04.16
 
 # Personal info
 name: Kwon Tae Kwan
@@ -68,31 +68,61 @@ content:
         caption: 2014.05 ~ Present
         description: | # this will include new lines to allow paragraphs
           **NAVER Shopping**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com)ㆍ<small>(Feb 2022 – Present)</small><br>
-          - Developed key service APIs and operated data pipelines<br>
-          - Designed and implemented a real-time traffic monitoring system for handling large-scale traffic and incident response<br>
-          ㆍ The previous incident response method (log analysis-based) was inefficient, with an average response time of over 5 minutes<br>
-          ㆍ Established a metric-based real-time traffic monitoring system using Nginx VTS module and Prometheus<br>
-          ㆍ Implemented Nginx Rate Limit settings to block abnormal traffic and ensure a stable traffic handling environment (applied after dry_run validation)<br>
-          ㆍ Collected application metrics and configured a Grafana dashboard – identified bottlenecks by analyzing response times and database query performance.<br>
-          ㆍ Built a traffic dashboard using the ELK stack with access logs, reducing analysis time<br>
-          - Introduced incident recovery strategies and Chaos Engineering to enhance service stability<br>
-          ㆍ Defined failure recovery scenarios and conducted replication tests before service launch<br>
-          ㆍ Introduced a Fallback Cache (Redis) to resolve empty response issues caused by external response delays<br>
-          ㆍ Introduced Chaos Engineering (Toxiproxy) to replicate latency failures and validate fallback cache logic through retry and connection recovery<br>
-          ㆍ Discovered fallback cache defects (failure in switching to recovery mode) through failure testing, optimized it, and achieved six months of zero downtime post-launch<br>
-          - Built a high-availability data pipeline for large-scale real-time user event processing<br>
-          ㆍ Implemented personalized recommendations and real-time ranking/feed services based on user behavior<br>
-          ㆍ Utilized Kafka for real-time streaming data processing, enabling user event analysis and integration with the recommendation system<br>
-          ㆍ Migrated from a batch-based ranking system (hourly updates) to near real-time ranking calculation using Redis (improving freshness)<br>
+          - Developed product APIs for a new Quick Commerce service and established layer architecture/test code conventions within the development task force.<br>
+            ㆍ Background: Ambiguous module responsibilities caused by indiscriminate inter-layer calls, along with frequent regressions due to a lack of test codes.<br> 
+            ㆍ Actions:<br>
+              ㆍEstablished clear layer separation through refactoring and proposed it as a development convention within the team.<br> 
+              ㆍIntegrated ArchUnit-based fitness functions into the CI pipeline to automatically detect dependency violations between layers.<br>
+              ㆍDocumented unit test best practices and provided sample codes to facilitate easy adoption by team members.<br> 
+              ㆍResulted in improved code quality and maintainability.<br>
+              ㆍLeadership and collaboration: Regular scrums with product data source teams, client (Front-End) teams, and planning/design departments.<br>
+            ㆍ Outcome: Successfully prioritized tasks and coordinated schedules to stably release new features by deadlines.<br>
+            <div style="height: 0.5em;"></div>
+            
+          - Built a real-time monitoring system for handling large-scale traffic and responding to incidents during the operation of the Fashion Town service.<br> 
+          ㆍ Background: Incident responses were delayed by over 5 minutes on average due to manual log analysis.<br> 
+          ㆍ Actions:<br>
+            ㆍCollected metrics using Nginx VTS Module + Prometheus and established real-time traffic analysis via Grafana dashboards.<br>
+            ㆍApplied Nginx Rate Limit settings (with dry_run testing first) to block abnormal traffic and prevent performance degradation.<br>
+            ㆍVisualized application metrics (response time, DB query speed, etc.) to identify and prioritize bottleneck improvements.<br> 
+          ㆍ Outcome: Reduced incident detection and response time from 5 minutes to under 1 minute by integrating alerts and log analysis.<br>
+          <div style="height: 0.5em;"></div>
+
+          - Developed the Product Standardization ('Group Product') service and designed a data pipeline.<br> 
+          ㆍ Background: Multiple options of the same product were registered separately, lowering search accuracy and confusing users.<br> 
+          ㆍ Actions:<br>
+            ㆍOptimized duplicate removal and filtering/paging performance using ElasticSearch's collapse queries.<br>
+            ㆍImplemented logic to expose representative products within a group based on priority policies.<br>
+            ㆍDesigned and led migration of the product reception data pipeline between MongoDB and ElasticSearch.<br>
+            ㆍConducted load testing to verify performance against TPS targets and improved query strategies.<br>
+            ㆍCollaborated with product data teams and QA to detect and resolve missing or inconsistent data issues.<br>
+          ㆍ Outcome:<br>
+            ㆍLed task management and risk identification to successfully complete the project within the deadline.<br>
+            ㆍReduced product management workload for operational consultants.<br>
+          <div style="height: 0.5em;"></div>
+
+          - Built a high-availability data pipeline for processing large-scale real-time user events.<br>
+          ㆍ Background: Needed to implement personalized product recommendations and real-time ranking/feed services based on user behavior.<br> 
+          ㆍ Actions:<br> 
+            ㆍProcessed real-time streaming data based on Kafka to analyze user events and link to recommendation systems.<br> 
+            ㆍTransitioned from a batch-based (hourly) ranking system to near-real-time ranking using Redis (improving freshness).<br> 
+          ㆍ Outcome: Contributed to a 10% increase in page views after service launch.<br>
+          <div style="height: 1em;"></div>
 
           **V LIVE**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)ㆍ<small>(Aug 2018 – Feb 2022)</small><br>
-          - Improved push notification speed for 10 million users (from 11 minutes to 30 seconds), enhancing push notification system performance by 95% ([*Related blog post*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
-          ㆍ Participated in the entire process, from identifying issues in the existing process to planning, designing, implementation, and phased deployment in three stages<br>
-          ㆍ Optimized recipient query methods and improved message queue (RabbitMQ) parallel processing, enhancing speed<br>
-          ㆍ Reduced Redis load and increased processing speed by implementing Redis key partitioning to control duplicate notifications<br>
-          - Full-scale service overhaul: Transitioned from Monolithic to MSA architecture to enhance scalability and fault isolation<br>
-          ㆍ Applied EDA, Circuit Breaker, and module separation to reduce inter-service coupling and enable fault isolation<br>
-          ㆍ Introduced Kubernetes-based container orchestration for deployment flexibility<br>
+          - Improved broadcast notification speed ([*Related blog post*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
+          ㆍ Background: Slow notifications disrupted communication between stars and fans, reducing broadcast viewership.<br>
+          ㆍ Actions:<br>
+            ㆍParticipated in identifying issues, planning, designing, implementing, and conducting a phased 3-step deployment.<br>
+            ㆍChanged the lookup method for target users and optimized parallel processing using RabbitMQ.<br>
+            ㆍReduced Redis load and improved process speed via Redis key partitioning to control duplicate sends.<br>
+          ㆍ Outcome:<br>
+            ㆍImproved broadcast notification speed for 10 million users (from 11 minutes → 30 seconds), enhancing push system performance by 95%.<br>
+            ㆍDiversified business models using notifications and launched a new feature ("News Update").<br>
+          - Led a full service overhaul: Migrated from a monolithic to MSA architecture to improve scalability and fault tolerance.<br>
+          ㆍ Introduced EDA (Event-Driven Architecture), Circuit Breakers, and modular separation to reduce microservices coupling and enable fault isolation.<br>
+          ㆍ Adopted Kubernetes-based container orchestration to achieve flexible deployments.<br>
+          - Served as Search/Feed Part Lead: Designed an event-driven search/feed system to stabilize services.<br>
           - Automated CI/CD and improved code quality by integrating SonarQube for static analysis and implementing online code reviews ([*Related blog post*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))<br>
           - Applied batch non-disruptive deployment to maintain service continuity and minimize failures ([*Related blog post*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))<br>
 
