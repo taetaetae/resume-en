@@ -67,76 +67,89 @@ content:
         sub_title: Software Engineer
         caption: 2014.05 ~ Present
         description: | # this will include new lines to allow paragraphs
-          **NAVER Shopping**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com)ㆍ<small>(Feb 2022 – Present)</small><br>
-          - Developed product APIs for a new Quick Commerce service and established layer architecture/test code conventions within the development task force.<br>
-            ㆍ Background: Ambiguous module responsibilities caused by indiscriminate inter-layer calls, along with frequent regressions due to a lack of test codes.<br> 
-            ㆍ Actions:<br>
-            ㅤㅤㆍEstablished clear layer separation through refactoring and proposed it as a development convention within the team.<br> 
-            ㅤㅤㆍIntegrated ArchUnit-based fitness functions into the CI pipeline to automatically detect dependency violations between layers.<br>
-            ㅤㅤㆍDocumented unit test best practices and provided sample codes to facilitate easy adoption by team members.<br> 
-            ㅤㅤㆍResulted in improved code quality and maintainability.<br>
-            ㅤㅤㆍLeadership and collaboration: Regular scrums with product data source teams, client (Front-End) teams, and planning/design departments.<br>
-            ㆍ Outcome: Successfully prioritized tasks and coordinated schedules to stably release new features by deadlines.<br>
-            <div style="height: 0.5em;"></div>
-            
-          - Built a real-time monitoring system for handling large-scale traffic and responding to incidents during the operation of the Fashion Town service.<br> 
-          ㆍ Background: Incident responses were delayed by over 5 minutes on average due to manual log analysis.<br> 
-          ㆍ Actions:<br>
-          ㅤㅤㆍCollected metrics using Nginx VTS Module + Prometheus and established real-time traffic analysis via Grafana dashboards.<br>
-          ㅤㅤㆍApplied Nginx Rate Limit settings (with dry_run testing first) to block abnormal traffic and prevent performance degradation.<br>
-          ㅤㅤㆍVisualized application metrics (response time, DB query speed, etc.) to identify and prioritize bottleneck improvements.<br> 
-          ㆍ Outcome: Reduced incident detection and response time from 5 minutes to under 1 minute by integrating alerts and log analysis.<br>
+          **Naver Shopping**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com)ㆍ<small>(Feb 2022 – Present)</small><br>
+          - Developed product APIs for a new Quick Commerce service and established layer architecture and testing code conventions within the development task force.<br>
+          ㆍ Background: Ambiguous module responsibilities due to indiscriminate inter-layer calls and frequent regressions caused by a lack of test codes.<br>
+          ㆍ Actions<br>
+          ㅤㅤㆍRefined and formalized clear separation of responsibilities between layers, establishing team-wide development standards.<br>
+          ㅤㅤㆍIntegrated ArchUnit-based fitness functions into the CI pipeline to automatically detect dependency violations.<br>
+          ㅤㅤㆍAuthored unit test guidelines and provided sample codes to facilitate easy adoption among team members.<br>
+          ㅤㅤㅤㆍEnhanced code quality and maintainability.<br>
+          ㅤㅤㆍDemonstrated leadership by coordinating regular scrums with the product ingestion team, client (Front-End) team, and planning/design teams.<br>
+          ㆍ Outcome: Successfully drove prioritization and scheduling efforts to achieve stable feature deliveries within deadlines.<br>
           <div style="height: 0.5em;"></div>
-
-          - Developed the Product Standardization ('Group Product') service and designed a data pipeline.<br> 
-          ㆍ Background: Multiple options of the same product were registered separately, lowering search accuracy and confusing users.<br> 
-          ㆍ Actions:<br>
-          ㅤㅤㆍOptimized duplicate removal and filtering/paging performance using ElasticSearch's collapse queries.<br>
-          ㅤㅤㆍImplemented logic to expose representative products within a group based on priority policies.<br>
-          ㅤㅤㆍDesigned and led migration of the product reception data pipeline between MongoDB and ElasticSearch.<br>
-          ㅤㅤㆍConducted load testing to verify performance against TPS targets and improved query strategies.<br>
-          ㅤㅤㆍCollaborated with product data teams and QA to detect and resolve missing or inconsistent data issues.<br>
-          ㆍ Outcome:<br>
-          ㅤㅤㆍLed task management and risk identification to successfully complete the project within the deadline.<br>
-          ㅤㅤㆍReduced product management workload for operational consultants.<br>
+          
+          - Built a real-time monitoring system to handle large-scale traffic and accelerate incident response during Fashion Town service operations.<br>
+          ㆍ Background: Manual log analysis caused incident response delays of over 5 minutes.<br>
+          ㆍ Actions<br>
+          ㅤㅤㆍEstablished a real-time traffic monitoring system by collecting Nginx VTS and Prometheus metrics and visualizing them with Grafana dashboards.<br>
+          ㅤㅤㆍApplied Nginx Rate Limit configurations (validated through dry_run) to block abnormal traffic and maintain system performance.<br>
+          ㅤㅤㆍVisualized application metrics (e.g., response time, DB query speed) to detect and prioritize bottleneck resolutions.<br>
+          ㆍ Outcome: Cut incident detection and response time from over 5 minutes to within 1 minute.<br>
           <div style="height: 0.5em;"></div>
-
-          - Built a high-availability data pipeline for processing large-scale real-time user events.<br>
-          ㆍ Background: Needed to implement personalized product recommendations and real-time ranking/feed services based on user behavior.<br> 
-          ㆍ Actions:<br> 
-          ㅤㅤㆍProcessed real-time streaming data based on Kafka to analyze user events and link to recommendation systems.<br> 
-          ㅤㅤㆍTransitioned from a batch-based (hourly) ranking system to near-real-time ranking using Redis (improving freshness).<br> 
+          
+          - Directed the development of the Product Standardization ('Group Product') service and architected the data pipeline.<br>
+          ㆍ Background: Different options of the same product were separately registered, decreasing search accuracy and causing user confusion.<br>
+          ㆍ Actions<br>
+          ㅤㅤㆍOptimized duplicate elimination and filtering/paging performance by utilizing ElasticSearch collapse queries.<br>
+          ㅤㅤㆍImplemented logic to prioritize and display a representative product within each group according to sort policies.<br>
+          ㅤㅤㆍDesigned the ingestion data pipeline between MongoDB and ElasticSearch and oversaw the migration.<br>
+          ㅤㅤㆍValidated system performance against TPS targets through load testing and optimized query strategies.<br>
+          ㅤㅤㆍCollaborated closely with the product ingestion and QA teams to detect and resolve data quality issues.<br>
+          ㆍ Outcome<br>
+          ㅤㅤㆍTook ownership of task management, schedule control, and risk mitigation to ensure the project's on-time completion.<br>
+          ㅤㅤㆍReduced the operational workload for product consultants.<br>
+          <div style="height: 0.5em;"></div>
+          
+          - Formulated a failure recovery strategy and introduced Chaos Engineering to enhance service resilience.<br>
+          ㆍ Background: Needed to establish recovery scenarios and simulate failure conditions before service launch.<br>
+          ㆍ Actions<br>
+          ㅤㅤㆍApplied Fallback Cache (Redis) to mitigate empty response issues during external delays.<br>
+          ㅤㅤㆍSimulated delayed responses and network faults using Toxiproxy to verify retry and recovery mechanisms.<br>
+          ㆍ Outcome<br>
+          ㅤㅤㆍIdentified and corrected fallback cache switching flaws during testing, achieving 100% success rate.<br>
+          ㅤㅤㆍRecorded zero critical incidents over six months post-launch, maintaining 99.99% SLA compliance.<br>
+          <div style="height: 0.5em;"></div>
+          
+          - Architected a high-availability data pipeline to process large-scale real-time user events.<br>
+          ㆍ Background: Needed to support behavior-based personalized product recommendations and real-time ranking/feed services.<br>
+          ㆍ Actions<br>
+          ㅤㅤㆍStreamed and processed user behavior events in real-time with Kafka and integrated them with the recommendation system.<br>
+          ㅤㅤㆍMigrated from hourly batch-based rankings to near-real-time ranking calculations using Redis, enhancing data freshness.<br>
           ㆍ Outcome: Contributed to a 10% increase in page views after service launch.<br>
           <div style="height: 1em;"></div>
+          
+          **V Live**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)ㆍ<small>(Aug 2018 – Feb 2022)</small><br>
+          - Improved broadcast notification speed ([*Related blog*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
+          ㆍ Background: Slow notifications disrupted communication between stars and fans and reduced broadcast viewership.<br>
+          ㆍ Actions<br>
+          ㅤㅤㆍParticipated end-to-end in diagnosing issues, planning, designing, implementing, and deploying optimizations in three phases.<br>
+          ㅤㅤㆍRefined target retrieval methods and enhanced RabbitMQ-based parallel processing.<br>
+          ㅤㅤㆍReduced Redis load and increased processing throughput by implementing key partitioning to avoid duplicate sends.<br>
+          ㆍ Outcome<br>
+          ㅤㅤㆍBoosted broadcast notification performance for 10 million users (reduced from 11 minutes → 30 seconds), achieving 95% system improvement.<br>
+          ㅤㅤㆍExpanded business models through notification services and launched the new "News Update" feature.<br>
+          - Headed a major architectural transformation from Monolithic to MSA to strengthen scalability and fault tolerance.<br>
+          ㆍ Adopted Event-Driven Architecture (EDA), Circuit Breakers, and service modularization to enable system resilience.<br>
+          ㆍ Implemented Kubernetes-based orchestration to enhance deployment flexibility.<br>
+          - Served as Head of Search and Feed, driving service stabilization and designing an event-driven architecture for the search/feed system.<br>
+          - Advanced CI/CD automation and code quality through the introduction of SonarQube static analysis and online code reviews ([*Related blog*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))<br>
+          - Ensured service continuity and minimized deployment risks by implementing non-disruptive batch deployments ([*Related blog*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))<br>
+          <div style="height: 1em;"></div>
+          
+          **Naver Pay Card Direct Affiliation System (Payment Gateway)**ㆍ<small>(Apr 2016 – Aug 2018)</small><br>
+          - Built the initial project environment including CI/CD pipelines, build/deployment systems, and server infrastructure.<br>
+          - Created a business-wide monitoring system based on the Elastic Stack for automated anomaly detection ([*Related blog*](https://d2.naver.com/helloworld/3585246))<br>
+          - Developed a real-time anomaly detection system to monitor and automatically respond to irregular transaction patterns ([*Related blog*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))<br>
+          - Strengthened the reliability of payment systems by adopting distributed tracing for transaction and performance monitoring.<br>
+          <div style="height: 1em;"></div>
+          
+          **Naver Weather**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)ㆍ<small>(May 2014 – Apr 2016)</small><br>
+          - Developed a monitoring tool to validate and ensure the integrity of incoming CP (Content Provider) weather data.<br>
+          - Migrated data collection processes from crontab to Spring Batch and Jenkins, visualizing and automating data workflows.<br>
+          - Established a logging system for the data pipeline to detect anomalies and resolve data processing delays.<br>
+          - Ideated and prototyped a map-based weather service, later incorporated into production services.<br>
 
-          **V LIVE**ㆍ[*http://www.vlive.tv*](http://www.vlive.tv/)ㆍ<small>(Aug 2018 – Feb 2022)</small><br>
-          - Improved broadcast notification speed ([*Related blog post*](https://taetaetae.github.io/2019/01/02/faster-parallel-processes/))<br>
-          ㆍ Background: Slow notifications disrupted communication between stars and fans, reducing broadcast viewership.<br>
-          ㆍ Actions:<br>
-          ㅤㅤㆍParticipated in identifying issues, planning, designing, implementing, and conducting a phased 3-step deployment.<br>
-          ㅤㅤㆍChanged the lookup method for target users and optimized parallel processing using RabbitMQ.<br>
-          ㅤㅤㆍReduced Redis load and improved process speed via Redis key partitioning to control duplicate sends.<br>
-          ㆍ Outcome:<br>
-          ㅤㅤㆍImproved broadcast notification speed for 10 million users (from 11 minutes → 30 seconds), enhancing push system performance by 95%.<br>
-          ㅤㅤㆍDiversified business models using notifications and launched a new feature ("News Update").<br>
-          - Led a full service overhaul: Migrated from a monolithic to MSA architecture to improve scalability and fault tolerance.<br>
-          ㆍ Introduced EDA (Event-Driven Architecture), Circuit Breakers, and modular separation to reduce microservices coupling and enable fault isolation.<br>
-          ㆍ Adopted Kubernetes-based container orchestration to achieve flexible deployments.<br>
-          - Served as Search/Feed Part Lead: Designed an event-driven search/feed system to stabilize services.<br>
-          - Automated CI/CD and improved code quality by integrating SonarQube for static analysis and implementing online code reviews ([*Related blog post*](https://taetaetae.github.io/2018/02/08/jenkins-sonar-github-integration/))<br>
-          - Applied batch non-disruptive deployment to maintain service continuity and minimize failures ([*Related blog post*](https://taetaetae.github.io/2019/10/13/batch-nondisruptive-deploy/))<br>
-
-          **NAVER Pay – Card Direct Merchant System (Payment Gateway)**ㆍ<small>(Apr 2016 – Aug 2018)</small><br>
-          - Set up the initial project environment (build/deployment pipelines, CI/CD design, server and infrastructure configuration)<br>
-          - Built a business-integrated monitoring system using the Elastic Stack for automated service failure detection and anomaly detection ([*Related blog post*](https://d2.naver.com/helloworld/3585246))<br>
-          - Developed a transaction decline monitoring system to automatically detect abnormal transaction patterns and establish a response system ([*Related blog post*](https://taetaetae.github.io/2018/05/31/anomaly-detection/))<br>
-          - Enhanced payment system stability by implementing distributed tracing for transaction tracking and performance monitoring<br>
-
-          **NAVER Weather**ㆍ[*https://weather.naver.com*](https://weather.naver.com/)ㆍ<small>(May 2014 – Apr 2016)</small><br>
-          - Developed a monitoring tool for content provider (CP) data reception to verify data integrity and automate failure detection<br>
-          - Migrated data collection from Crontab-based scheduling to Spring Batch and Jenkins, enabling data flow visualization and operational automation<br>
-          - Established a data pipeline logging system to detect anomalies and improve processing delays<br>
-          - Conducted ideation and prototyping for a map-based weather service, which was later applied to the service<br>
 
       - layout: top-left
         title: NHN Technology Services
