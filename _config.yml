@@ -5,7 +5,7 @@ repository: taetaetae/resume
 # Content configuration version
 version: 2
 
-update_date: 2025.04.16
+update_date: 2025.08.01
 
 # Personal info
 name: Kwon Tae Kwan
@@ -65,7 +65,7 @@ content:
       - layout: top-left
         title: NAVER Corporation
         sub_title: Software Engineer
-        caption: 2014.05 ~ Present
+        caption: 2014.05 ~ 2025.08
         description: | # this will include new lines to allow paragraphs
           **Naver Shopping**ㆍ[*https://shopping.naver.com*](https://shopping.naver.com)ㆍ<small>(Feb 2022 – Present)</small><br>
           - Developed product APIs for a new Quick Commerce service and established layer architecture and testing code conventions within the development task force.<br>
